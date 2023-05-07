@@ -1,6 +1,7 @@
 import "../styles/main.scss";
 import "./components/counter";
 import "./components/cards-slider";
+import "./components/testimonial";
 /* import "./blocks/slider"; */
 
 let hamburger = document.querySelector(".wkode-header__hamburger-wrapper");

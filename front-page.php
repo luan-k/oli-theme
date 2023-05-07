@@ -317,4 +317,53 @@
   </ul>
 </section>
 
+<section class="testimonial-section my-48">
+    
+    <div class="testimonial-carousel">
+    <div class="testimonial-wrapper ">
+        <div class="testimonial-wrapper-wrapper font-montserrat">
+            <div class="testimonial text-black text-center px-20">
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/BECKER-OFICINA.jpg'); ?>" >
+                <p class="text-black text-3xl font-medium mb-12">
+                    "Incríveis os vídeos e o suporte dos caras, já se pagou no primeiro cliente!"
+                </p>
+                <h4 class="text-black text-4xl font-semibold">Becker Oficina</h4>
+            </div>
+            <div class="testimonial text-black text-center px-20">
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/CARLOS.jpg'); ?>" >
+                <p class="text-black text-3xl font-medium mb-12">
+                    "Recebi a indicação de um amigo profissional e já aprendi muito. Parabéns pela qualidade dos vídeos e manuais."
+                </p>
+                <h4 class="text-black text-4xl font-semibold">Carlos Costa Ribeiro</h4>
+            </div>
+            <div class="testimonial text-black text-center px-20">
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/SUPERNOVA.jpg'); ?>" >
+                <p class="text-black text-3xl font-medium mb-12">
+                    "Equipe muito bem treinada e capacitada. Atendimento top! Não tem nenhum problema que eles deixem sem solução."
+                </p>
+                <h4 class="text-black text-4xl font-semibold">SuperNova Auto Center</h4>
+            </div>
+            <div class="testimonial text-black text-center px-20">
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/GUILHERME.jpg'); ?>" >
+                <p class="text-black text-3xl font-medium mb-12">
+                    "O app é excelente, ajudou-me bastante e fez toda a diferença na oficina."
+                </p>
+                <h4 class="text-black text-4xl font-semibold">Guilherme Botelho</h4>
+            </div>
+        </div>
+        
+    </div>
+    <button id="prevBtn" class="prev">&lt;</button>
+    <button id="nextBtn" class="next">&gt;</button>
+    </div>
+</section>
+
+<section class="wkode-contact font-montserrat bg-slate-100 pt-32 pb-96">
+    <div class="wkode-contact__wrapper container">
+        <h3 class="text-center text-5xl font-bold text-oli-primary-blue mb-12">Fale Conosco!</h3>
+        <?php echo do_shortcode( '[wpforms id="15" title="false" description="false"]' ) ?>
+    </div>
+</section>
+
+
 <?php get_footer(); ?>
