@@ -96,32 +96,225 @@
 
 <!-- <?php /* echo the_content(); */ ?> -->
 
-<div class="wkode-carousel">
+<section class="wkode-carousel font-montserrat" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/cards-bg-60.png'); ?>)">
   <ul class="wkode-carousel__list">
-    <li class="wkode-carousel__item" data-pos="-2">1</li>
-    <li class="wkode-carousel__item" data-pos="-1">2</li>
-    <li class="wkode-carousel__item text-center" data-pos="0">
-        <div class="wkode-carousel__header w-full">
-            <h4 class="wkode-carousel__title text-5xl">Básico</h4>
-            <h3 class="wkode-carousel__price text-7xl">R$ 99,00</h3>
+    <li class="wkode-carousel__item" data-pos="-2">
+        <div class="wkode-carousel__header w-full text-center pt-16">
+            <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">BASIC</h4>
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-oli-primary-orange">R$ 79,90</h3>
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
-        <div class="wkode-carousel__body">
+        <div class="wkode-carousel__body text-black text-center px-6 py-9">
             <p class="wkode-carousel__description text-3xl">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                Plano inicial para empresas que querem iniciar
+                a jornada de serviços em transmissões automáticas.
             </p>
-            <ul class="wkode-carousel__list-wrapper text-4xl">
-                <li class="wkode-carousel__list-item">Lorem Ipsum</li>
-                <li class="wkode-carousel__list-item">Lorem Ipsum</li>
-                <li class="wkode-carousel__list-item">Lorem Ipsum</li>
+            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a todas as montadoras e modelos de veículos
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a procedimentos de forma manual
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">                
+                        Acesso a procedimentos com máquina
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                    </div>
+                </li>
             </ul>
         </div>
-        <div class="wkode-carousel__footer w-full">
-            <a href="" class="wkode-carousel__main-btn text-4xl">Assine já</a>
+        <div class="wkode-carousel__footer w-full pb-16">
+            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
-    <li class="wkode-carousel__item" data-pos="1">4</li>
-    <li class="wkode-carousel__item" data-pos="2">5</li>
+    <li class="wkode-carousel__item" data-pos="-1">
+        <div class="wkode-carousel__header w-full text-center pt-16">
+            <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">PREMIUM</h4>
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-oli-primary-orange">R$ 174,90</h3>
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
+        </div>
+        <div class="wkode-carousel__body text-black text-center px-6 py-9">
+            <p class="wkode-carousel__description text-3xl">
+                Plano completo com todas as funcionalidades
+                que a plataforma tem a oferecer, exceto assistências.
+            </p>
+            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a todas as montadoras e modelos de veículos
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a procedimentos de forma manual
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">                
+                        Acesso a procedimentos com máquina
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="wkode-carousel__footer w-full pb-16">
+            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
+        </div>
+    </li>
+    <li class="wkode-carousel__item" data-pos="0">
+        <div class="wkode-carousel__header w-full text-center pt-16">
+            <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">PREMIUM PLUS</h4>
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-oli-primary-orange">R$ 299,90</h3>
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
+        </div>
+        <div class="wkode-carousel__body text-black text-center px-6 py-9">
+            <p class="wkode-carousel__description text-3xl">
+                Plano completo com todas as funcionalidades que a plataforma tem a oferecer.
+            </p>
+            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a todas as montadoras e modelos de veículos
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a procedimentos de forma manual
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">                
+                        Acesso a procedimentos com máquina
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="wkode-carousel__footer w-full pb-16">
+            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
+        </div>
+    </li>
+    <li class="wkode-carousel__item" data-pos="1">
+        <div class="wkode-carousel__header w-full text-center pt-16">
+            <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">PERSONAL</h4>
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-oli-primary-orange">R$ 129,90</h3>
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
+        </div>
+        <div class="wkode-carousel__body text-black text-center px-6 py-9">
+            <p class="wkode-carousel__description text-3xl">
+                Plano com todas as funcionalidades que a plataforma
+                tem a oferecer, limitado por montadoras, focado nos
+                especialistas em marcas, sem assistência.
+            </p>
+            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a todas as montadoras e modelos de veículos
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a procedimentos de forma manual
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">                
+                        Acesso a procedimentos com máquina
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="wkode-carousel__footer w-full pb-16">
+            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
+        </div>
+    </li>
+    <li class="wkode-carousel__item" data-pos="2">
+        <div class="wkode-carousel__header w-full text-center pt-16">
+            <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">PERSONAL PLUS</h4>
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-oli-primary-orange">R$ 219,90</h3>
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
+        </div>
+        <div class="wkode-carousel__body text-black text-center px-6 py-9">
+            <p class="wkode-carousel__description text-3xl">
+                Plano com todas as funcionalidades que a plataforma
+                tem a oferecer, limitado por montadoras, focado nos
+                especialistas em marcas.
+            </p>
+            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a todas as montadoras e modelos de veículos
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a procedimentos de forma manual
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">                
+                        Acesso a procedimentos com máquina
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item ">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="wkode-carousel__footer w-full pb-16">
+            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
+        </div>
+    </li>
   </ul>
-</div>
+</section>
 
 <?php get_footer(); ?>

@@ -1,17 +1,21 @@
 const state = {};
-const carouselList = document.querySelector(".wkode-carousel__list");
 const carouselItems = document.querySelectorAll(".wkode-carousel__item");
 const elems = Array.from(carouselItems);
 
-carouselList.addEventListener("click", function (event) {
-  var newActive = event.target;
-  var isItem = newActive.closest(".wkode-carousel__item");
+carouselItems.forEach((item) => {
+  item.addEventListener("click", function (event) {
+    var newActive = this;
+    var isItem = newActive.closest(".wkode-carousel__item");
 
-  if (!isItem || newActive.classList.contains("wkode-carousel__item_active")) {
-    return;
-  }
+    if (
+      !isItem ||
+      newActive.classList.contains("wkode-carousel__item_active")
+    ) {
+      return;
+    }
 
-  update(newActive);
+    update(newActive);
+  });
 });
 
 const update = function (newActive) {
