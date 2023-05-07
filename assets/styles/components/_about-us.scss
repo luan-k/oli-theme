@@ -1,0 +1,34 @@
+.wkode-about-us {
+  position: relative;
+  &__wrapper {
+    z-index: 999;
+    position: relative;
+  }
+  &__logo {
+  }
+  &__text {
+    line-height: 4rem;
+  }
+  &__bg-image {
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    width: 100%;
+    height: 120vh;
+    z-index: 997;
+    display: block;
+    opacity: 0.2;
+  }
+  &__main-image {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .wkode-about-us {
+    &__bg-image {
+      height: 100%;
+    }
+  }
+}

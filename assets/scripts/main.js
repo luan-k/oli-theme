@@ -1,18 +1,19 @@
 import "../styles/main.scss";
-import "./blocks/slider";
+import "./components/counter";
+import "./components/cards-slider";
+/* import "./blocks/slider"; */
 
-/* import { DisplayLabel } from "./components/counter";
+let hamburger = document.querySelector(".wkode-header__hamburger-wrapper");
+let menu = document.querySelector("#navbarNavAltMarkup");
+let menuWrapper = document.querySelector("header.wkode-header");
 
-let Main = {
-  init: async function () {
-    // initialize demo javascript component - async/await invokes some
-    //  level of babel transformation
-    const displayLabel = new DisplayLabel();
-    await displayLabel.init();
-  },
-};
-
-Main.init();
-
-console.log(document.getElementById("main")[0]);
- */
+console.log(hamburger);
+hamburger.addEventListener("click", function () {
+  if (!menu.classList.contains("active-menu")) {
+    menu.classList.add("active-menu");
+    menuWrapper.classList.add("active-menu-wrapper");
+  } else {
+    menu.classList.remove("active-menu");
+    menuWrapper.classList.remove("active-menu-wrapper");
+  }
+});

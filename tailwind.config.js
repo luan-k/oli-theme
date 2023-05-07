@@ -17,6 +17,9 @@ module.exports = {
             orange: "#B22611",
             blue: "#071927",
           },
+          secondary: {
+            blue: "#94a3c0",
+          },
         },
       },
       fontFamily: {
