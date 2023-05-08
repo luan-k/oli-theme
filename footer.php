@@ -1,6 +1,6 @@
         <footer class="wkode-footer text-white pt-56 font-montserrat pb-12" id="siganos">
           <div class="wkode-footer__main grid grid-cols-1 md:grid-cols-4 container gap-16">
-            <div class="wkode-footer__col">
+            <div data-entrance="from-left" class="wkode-footer__col">
                 <h4 class="wkode-footer__title text-4xl font-bold mb-9">
                   Sobre nós
                 </h4>
@@ -14,7 +14,7 @@
                   <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-google.svg'); ?>" alt="" >
                 </div>
             </div>
-            <div class="wkode-footer__col">
+            <div data-entrance="grow" class="wkode-footer__col">
                 <h4 class="wkode-footer__title text-4xl font-bold mb-9">
                   Navegação
                 </h4>
@@ -28,7 +28,7 @@
                   </ul>
                 </p>
             </div>
-            <div class="wkode-footer__col">
+            <div data-entrance="grow" class="wkode-footer__col">
                 <h4 class="wkode-footer__title text-4xl font-bold mb-9">
                   Informações de contato
                 </h4>
@@ -57,7 +57,7 @@
                   </ul>
                 </p>
             </div>
-            <div class="wkode-footer__col">
+            <div data-entrance="from-right" class="wkode-footer__col">
                 <h4 class="wkode-footer__title text-4xl font-bold mb-9">
                   Mídias Sociais
                 </h4>

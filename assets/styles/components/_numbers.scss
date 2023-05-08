@@ -16,8 +16,13 @@
   }
   &__icon {
     &-image {
-      width: 18rem;
+      width: 12rem;
       margin: auto;
+    }
+  }
+  &__text {
+    &--header {
+      font-style: italic;
     }
   }
 }

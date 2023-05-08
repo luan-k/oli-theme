@@ -1,4 +1,5 @@
 import "../styles/main.scss";
+import "./base/scroll-entrance";
 import "./components/counter";
 import "./components/cards-slider";
 import "./components/testimonial";
@@ -8,7 +9,6 @@ let hamburger = document.querySelector(".wkode-header__hamburger-wrapper");
 let menu = document.querySelector("#navbarNavAltMarkup");
 let menuWrapper = document.querySelector("header.wkode-header");
 
-console.log(hamburger);
 hamburger.addEventListener("click", function () {
   if (!menu.classList.contains("active-menu")) {
     menu.classList.add("active-menu");

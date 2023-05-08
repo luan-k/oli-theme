@@ -3,7 +3,10 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <style>
+      /* Ensure elements are hidden while ScrollEntrance is loading */
+      [data-entrance] { visibility: hidden; }
+  </style>
     <? wp_head(); ?>
 </head>
 
@@ -13,7 +16,7 @@
       <div class="wkode-header__nav wkode-header__nav--top container">
         <div class="wkode-header__logo-wraper">
 					<a class="" href="<?php echo esc_url(site_url()); ?>">
-						<img class="logo" src="<?php echo get_theme_file_uri('/assets/img/logo.svg')?>" alt="<?php echo $logo_alt; ?>">
+						<img data-entrance="from-left" class="logo" src="<?php echo get_theme_file_uri('/assets/img/logo.svg')?>" alt="<?php echo $logo_alt; ?>">
 					</a>
 				</div>
         <div class="wkode-header__nav wkode-header__nav--inner" id="navbarNavAltMarkup">
@@ -24,7 +27,7 @@
               <li class="wkode-header__li"> <a href="#contato" class="">Contato</a> </li>
               <li class="wkode-header__li"> <a href="#siganos" class="">Siga-nos</a> </li>
             </ul>
-            <nav class="wkode-header__icons-wrapper">
+            <nav data-entrance="from-right" class="wkode-header__icons-wrapper">
               <a target="_blank" class="wkode-header__social-media-icon" href="#" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/instagram.svg'); ?>" alt="" class="">
               </a>
