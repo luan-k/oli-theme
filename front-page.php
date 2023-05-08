@@ -9,9 +9,7 @@
                 <span data-entrance="from-left" class="text-6xl mb-7 font-bold text-oli-primary-orange block">Transmissões Automáticas.</span>
             </h1>
             <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-bottom-left">
-                Tenha acesso a milhares de
-                procedimento em vídeo e aumente a
-                rentabilidade do seu negócioe tecnologia.
+                Tenha acesso a milhares de procedimentos em vídeo e aumente a rentabilidade do seu negócio.
             </h2>
             <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-bottom">
                 <img class="w-56 md:w-72 m-auto mr-7" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
