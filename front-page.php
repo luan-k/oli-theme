@@ -6,7 +6,7 @@
             <h1 class="wkode-hero-section__main-title">
                 <span data-entrance="from-top" class="text-4xl mb-4 font-thin text-oli-secondary-blue block">Esse App é para você!</span>
                 <span data-entrance="from-top-left" class="text-5xl mb-3 font-medium block">Descomplique a Manutenção <br> Preventiva em</span>
-                <span data-entrance="from-left" class="text-6xl mb-7 font-bold text-oli-primary-orange block">Transmissões Automáticas.</span>
+                <span data-entrance="from-left" class="wkode-hero-section__main-title--call text-6xl mb-7 font-bold text-oli-primary-orange block">Transmissões Automáticas.</span>
             </h1>
             <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-bottom-left">
                 Tenha acesso a milhares de procedimentos em vídeo e aumente a rentabilidade do seu negócio.
