@@ -1,4 +1,4 @@
-        <footer class="wkode-footer text-white pt-56 font-montserrat pb-12" id="footer">
+        <footer class="wkode-footer text-white pt-56 font-montserrat pb-12" id="siganos">
           <div class="wkode-footer__main grid grid-cols-1 md:grid-cols-4 container gap-16">
             <div class="wkode-footer__col">
                 <h4 class="wkode-footer__title text-4xl font-bold mb-9">
@@ -20,11 +20,11 @@
                 </h4>
                 <p class="wkode-footer__p text-3xl font-semibold mb-9">
                   <ul class="wkode-footer__ul text-2xl">
-                    <li class="wkode-footer__li"> <a href="" class="">Home</a> </li>
-                    <li class="wkode-footer__li"> <a href="" class="">Sobre o App</a>  </li>
-                    <li class="wkode-footer__li"> <a href="" class="">Planos</a> </li>
-                    <li class="wkode-footer__li"> <a href="" class="">Contato</a> </li>
-                    <li class="wkode-footer__li"> <a href="" class="">Siga-nos</a> </li>
+                    <li class="wkode-footer__li"> <a href="#hero" class="">Home</a> </li>
+                    <li class="wkode-footer__li"> <a href="#sobre" class="">Sobre o App</a>  </li>
+                    <li class="wkode-footer__li"> <a href="#planos" class="">Planos</a> </li>
+                    <li class="wkode-footer__li"> <a href="#contato" class="">Contato</a> </li>
+                    <li class="wkode-footer__li"> <a href="#siganos" class="">Siga-nos</a> </li>
                   </ul>
                 </p>
             </div>

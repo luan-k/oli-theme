@@ -18,11 +18,11 @@
 				</div>
         <div class="wkode-header__nav wkode-header__nav--inner" id="navbarNavAltMarkup">
             <ul class="wkode-header__ul">
-              <li class="wkode-header__li"> <a href="" class="">Home</a> </li>
-              <li class="wkode-header__li"> <a href="" class="">Sobre o App</a>  </li>
-              <li class="wkode-header__li"> <a href="" class="">Planos</a> </li>
-              <li class="wkode-header__li"> <a href="" class="">Contato</a> </li>
-              <li class="wkode-header__li"> <a href="" class="">Siga-nos</a> </li>
+              <li class="wkode-header__li"> <a href="#hero" class="">Home</a> </li>
+              <li class="wkode-header__li"> <a href="#sobre" class="">Sobre o App</a>  </li>
+              <li class="wkode-header__li"> <a href="#planos" class="">Planos</a> </li>
+              <li class="wkode-header__li"> <a href="#contato" class="">Contato</a> </li>
+              <li class="wkode-header__li"> <a href="#siganos" class="">Siga-nos</a> </li>
             </ul>
             <nav class="wkode-header__icons-wrapper">
               <a target="_blank" class="wkode-header__social-media-icon" href="#" >

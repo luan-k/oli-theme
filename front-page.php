@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<section class="wkode-hero-section text-white pt-60 md:pt-40 font-montserrat " >
+<section class="wkode-hero-section text-white pt-60 md:pt-40 font-montserrat " id="hero">
     <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-2 h-full container">
         <div class="wkode-hero-section__call-to-action p-0 md:pr-9 mb-36 md:mb-0">
             <h1 class="wkode-hero-section__main-title">
@@ -26,7 +26,7 @@
     <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" >
 </section>
 
-<section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat">
+<section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat" id="sobre">
     <div class="wkode-about-us__wrapper container">
         <div class="wkode-about-us__logo text-center">
             <img class="m-auto w-60" src="<?php echo get_theme_file_uri('/assets/img/logo-dark.svg')?>" >
@@ -96,7 +96,7 @@
 
 <!-- <?php /* echo the_content(); */ ?> -->
 
-<section class="wkode-carousel font-montserrat" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/cards-bg-60.png'); ?>)">
+<section class="wkode-carousel font-montserrat" id="planos" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/cards-bg-60.png'); ?>)">
   <ul class="wkode-carousel__list">
     <li class="wkode-carousel__item" data-pos="-2">
         <div class="wkode-carousel__header w-full text-center pt-16">
@@ -358,7 +358,7 @@
     </div>
 </section>
 
-<section class="wkode-contact font-montserrat bg-slate-100 pt-32 pb-96">
+<section class="wkode-contact font-montserrat bg-slate-100 pt-32 pb-96" id="contato">
     <div class="wkode-contact__wrapper container">
         <h3 class="text-center text-5xl font-bold text-oli-primary-blue mb-12">Fale Conosco!</h3>
         <?php echo do_shortcode( '[wpforms id="15" title="false" description="false"]' ) ?>
