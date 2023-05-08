@@ -1,4 +1,5 @@
 import jQuery from "jquery";
+import $ from "jquery";
 (function ($) {
   $.fn.countTo = function (options) {
     options = options || {};
@@ -104,3 +105,20 @@ jQuery(function ($) {
     $this.countTo(options);
   }
 });
+// Get the element to observe
+var target = document.querySelector("#my-counter");
+
+// Create an Intersection Observer instance
+var observer = new IntersectionObserver(function (entries, observer) {
+  entries.forEach(function (entry) {
+    if (entry.isIntersecting) {
+      // If the element is visible on the screen, start the counter
+      $(entry.target).find(".timer").countTo();
+      // Unobserve the element to avoid triggering the counter multiple times
+      observer.unobserve(entry.target);
+    }
+  });
+});
+
+// Observe the element
+observer.observe(target);

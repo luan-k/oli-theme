@@ -49,7 +49,7 @@
     <img class="wkode-about-us__bg-image" src="<?php echo get_theme_file_uri('/assets/img/about-us-bg.png'); ?>" >
 </section>
 
-<section class="wkode-numbers py-24">
+<section class="wkode-numbers py-24" id="my-counter" >
     <div class="wkode-numbers__wrapper text-white grid grid-cols-1 md:grid-cols-3 container gap-9">
         <div class="wkode-numbers__card mb-20 md:mb-0">
             <div class="wkode-numbers__icon mb-12">
@@ -64,7 +64,7 @@
                 </h3>
             </div>
         </div>
-        <div class="wkode-numbers__card mb-20 md:mb-0">
+        <div class="wkode-numbers__card mb-20 md:mb-0" >
             <div class="wkode-numbers__icon mb-12">
                 <img data-entrance="from-top" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-car.png'); ?>" >
             </div>
