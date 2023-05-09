@@ -11,6 +11,23 @@
   padding-top: 21rem;
   padding-bottom: 12rem;
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 89%);
+  position: relative;
+
+  &__arrow {
+    position: absolute;
+    width: 10rem;
+    z-index: 9999;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 7rem;
+    font-weight: 900;
+    &_prev {
+      left: 0;
+    }
+    &_next {
+      right: 0;
+    }
+  }
 
   &__header {
     position: relative;
@@ -294,5 +311,11 @@
         transform: translateX(10%) scale(0.3);
       }
     }
+  }
+}
+
+.wkode-carousel__item--personal {
+  .wkode-btn--solid-main-red {
+    @apply bg-oli-primary-blue;
   }
 }

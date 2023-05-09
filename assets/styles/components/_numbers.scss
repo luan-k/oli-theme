@@ -16,13 +16,14 @@
   }
   &__icon {
     &-image {
-      width: 12rem;
+      width: 10rem;
       margin: auto;
     }
   }
   &__text {
     &--header {
       font-style: italic;
+      font-weight: normal;
     }
   }
 }

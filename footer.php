@@ -34,26 +34,26 @@
                 </h4>
                 <p class="wkode-footer__p text-3xl font-semibold mb-9">
                   <ul class="wkode-footer__ul text-2xl">
-                    <li class="wkode-footer__li icons"> 
+                    <!-- <li class="wkode-footer__li icons"> 
                       <a href="" class="wkode-footer__a">
                         <img class="" src="<?php echo get_theme_file_uri('/assets/img/pin.svg'); ?>" alt="" >
                         Endereço
                       </a>
-                   </li>
+                   </li> -->
                    <li class="wkode-footer__li icons"> 
-                      <a href="" class="wkode-footer__a">
+                      <a target="_blank" href="https://wa.me/5541995240664" class="wkode-footer__a">
                         <img class="" src="<?php echo get_theme_file_uri('/assets/img/whats.svg'); ?>" alt="" >
                         Whatsapp
 
                       </a>
                     </li>
-                    <li class="wkode-footer__li icons"> 
+                    <!-- <li class="wkode-footer__li icons"> 
                       <a href="" class="wkode-footer__a">
                         <img class="" src="<?php echo get_theme_file_uri('/assets/img/phone.svg'); ?>" alt="" >
                         Telefone
 
                       </a>
-                    </li>
+                    </li> -->
                   </ul>
                 </p>
             </div>
@@ -63,16 +63,16 @@
                 </h4>
                 <p class="wkode-footer__p text-3xl font-semibold mb-9">
                   <nav class="wkode-footer__icons-wrapper">
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="#" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.instagram.com/oliappoficial/" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-insta.svg'); ?>" alt="" class="">
                     </a>
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="#" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.facebook.com/oliappoficial" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-facebook.svg'); ?>" alt="" class="">
                     </a>
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="#" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.youtube.com/@OliVideos-cv1wm/featured" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-youtube.svg'); ?>" alt="" class="">
                     </a>
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="#" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://wa.me/5541995240664" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-whats.svg'); ?>" alt="" class="">
                     </a>
                   </nav>

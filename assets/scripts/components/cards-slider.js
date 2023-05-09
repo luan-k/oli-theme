@@ -1,6 +1,30 @@
 const state = {};
 const carouselItems = document.querySelectorAll(".wkode-carousel__item");
 const elems = Array.from(carouselItems);
+const prevBtn = document.querySelector(".wkode-carousel__arrow_prev");
+const nextBtn = document.querySelector(".wkode-carousel__arrow_next");
+
+prevBtn.addEventListener("click", function () {
+  const current = elems.find((elem) => elem.dataset.pos == 0);
+  const prev = elems.find((elem) => elem.dataset.pos == -1);
+
+  if (!prev) {
+    return;
+  }
+
+  update(prev);
+});
+
+nextBtn.addEventListener("click", function () {
+  const current = elems.find((elem) => elem.dataset.pos == 0);
+  const next = elems.find((elem) => elem.dataset.pos == 1);
+
+  if (!next) {
+    return;
+  }
+
+  update(next);
+});
 
 carouselItems.forEach((item) => {
   item.addEventListener("click", function (event) {
@@ -34,6 +58,8 @@ const update = function (newActive) {
 
     item.dataset.pos = getPos(itemPos, newActivePos);
   });
+
+  newActive.classList.add("wkode-carousel__item_active");
 };
 
 const getPos = function (current, active) {
