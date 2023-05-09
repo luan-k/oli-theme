@@ -6,10 +6,10 @@
             <h1 class="wkode-hero-section__main-title">
                 <span data-entrance="from-top" class="text-4xl mb-4 font-thin text-oli-secondary-blue block">Esse App é para você!</span>
                 <span data-entrance="from-top-left" class="text-5xl mb-3 font-medium block">Descomplique a Manutenção <br> Preventiva em</span>
-                <span data-entrance="from-left" class="wkode-hero-section__main-title--call text-6xl mb-7 font-bold text-oli-primary-orange block">Transmissões Automáticas.</span>
+                <span data-entrance="from-left" class=" text-6xl mb-7 font-bold text-oli-primary-orange block"><span class="wkode-hero-section__main-title--call">Transmissões Automáticas</span> <span class="wkode-hero-section__main-title--call">e Sistemas 4X4</span> </span>
             </h1>
             <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-bottom-left">
-                Tenha acesso a milhares de procedimentos em vídeo e aumente a rentabilidade do seu negócio.
+                Tenha acesso a milhares de procedimentos em vídeo e texto, acelerando sua gestão de compras, orçamentos e aumentando a rentabilidade do seu negócio.
             </h2>
             <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-bottom">
                 <img class="w-56 md:w-72 m-auto mr-7" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
@@ -223,7 +223,7 @@
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
-    <li class="wkode-carousel__item" data-pos="1">
+    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="1">
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">PERSONAL</h4>
             <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 129,90</h3>
