@@ -302,11 +302,11 @@
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
         </div>
     </li>
-    <li class="wkode-carousel__item" data-pos="2">
+    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="2">
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-7 font-medium">PERSONAL PLUS</h4>
             <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 219,90</h3>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
             <p class="wkode-carousel__description text-3xl">
@@ -343,7 +343,7 @@
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
             <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
         </div>
     </li>
   </ul>
