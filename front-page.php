@@ -349,7 +349,7 @@
   </ul>
 </section>
 
-<section data-entrance="from-bottom" class="testimonial-section my-48">
+<section class="testimonial-section my-48">
     
     <div class="testimonial-carousel">
     <div class="testimonial-wrapper ">
@@ -391,7 +391,7 @@
 </section>
 
 <section class="wkode-contact font-montserrat pt-32 pb-96" id="contato" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/contact-bg-dark.jpg'); ?>)">
-    <div data-entrance="fade" class="wkode-contact__wrapper container">
+    <div class="wkode-contact__wrapper container">
         <h3 class="text-center text-5xl font-bold text-white mb-12">Fale Conosco!</h3>
         <?php echo do_shortcode( '[wpforms id="15" title="false" description="false"]' ) ?>
     </div>
