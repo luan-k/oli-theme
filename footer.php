@@ -24,7 +24,7 @@
                     <li class="wkode-footer__li"> <a href="#sobre" class="">Sobre o App</a>  </li>
                     <li class="wkode-footer__li"> <a href="#planos" class="">Planos</a> </li>
                     <li class="wkode-footer__li"> <a href="#contato" class="">Contato</a> </li>
-                    <li class="wkode-footer__li"> <a href="/OLI-Termo-de-Uso-APP.pdf" class="">Termos de uso</a> </li>
+                    <li class="wkode-footer__li"> <a href="/OLI_-_Termo_de_Uso_e_Política_de_Privacidade.pdf" target="_blank" class="">Termos de uso e <br> Política de Privacidade</a> </li>
                     <li class="wkode-footer__li"> <a href="#siganos" class="">Siga-nos</a> </li>
                   </ul>
                 </p>
