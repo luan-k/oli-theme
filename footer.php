@@ -11,7 +11,9 @@
                 </p>
                 <div class="wkode-hero-section__links grid grid-cols-2">
                   <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
-                  <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-google.svg'); ?>" alt="" >
+                  <a href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
+                    <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-google.svg'); ?>" alt="" >
+                  </a>
                 </div>
             </div>
             <div class="wkode-footer__col">

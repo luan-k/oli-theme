@@ -13,7 +13,9 @@
             </h2>
             <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-left">
                 <img class="w-56 md:w-72 m-auto mr-7" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
-                <img class="w-56 md:w-72 m-auto ml-7" src="<?php echo get_theme_file_uri('/assets/img/download-google.svg'); ?>" alt="" >
+                <a href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
+                    <img class="w-56 md:w-72 m-auto ml-7" src="<?php echo get_theme_file_uri('/assets/img/download-google.svg'); ?>" alt="" >
+                </a>
             </div>
         </div>
         <div class="wkode-hero-section__image" data-entrance="from-right">
