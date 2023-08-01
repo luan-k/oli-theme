@@ -1,19 +1,19 @@
 .wkode-contact {
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   input {
     border-radius: 99px !important;
     margin: auto !important;
-    width: 50% !important;
     padding-left: 2.1rem !important;
+    width: 50% !important;
   }
   textarea.wpforms-field-medium {
-    margin: auto !important;
-    width: 50% !important;
-    padding-left: 2.1rem !important;
     border-radius: 1.5rem !important;
+    margin: auto !important;
+    padding-left: 2.1rem !important;
+    width: 50% !important;
   }
   .g-recaptcha div {
     margin: auto !important;
@@ -22,46 +22,60 @@
     display: flex;
     justify-content: center;
     button.wpforms-submit {
-      margin: auto !important;
-      width: 50%;
-      position: relative;
-      font-size: 1.4rem;
-      margin: auto;
-      margin-bottom: 0.9rem;
+      background-color: #b22611 !important;
+      border: 0 !important;
       color: white !important;
-      transition: all 0.5s;
+      font-size: 1.4rem;
       font-weight: bold;
       letter-spacing: 0.3rem;
-      text-transform: uppercase;
-      width: 50%;
-      &::after {
-        content: "";
-        display: inline-block;
-        height: 100%;
-        width: 100%;
-        border-radius: inherit;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        transition: all 0.4s;
-        background-color: inherit;
-      }
-      &:hover {
-        transform: translateY(-4px);
-        box-shadow: 0px 47px 46px 10px rgb(0 0 0 / 71%);
-        &::after {
-          transform: scaleX(1.4) scaleY(1.6);
-          opacity: 0;
-        }
-      }
-      padding-top: 1.5rem;
+      margin: auto !important;
+      margin: auto;
+      margin-bottom: 0.9rem;
       padding-bottom: 1.5rem;
       padding-left: 2.25rem;
       padding-right: 2.25rem;
-      background-color: #b22611 !important;
-      border: 0 !important;
+      padding-top: 1.5rem;
+      position: relative;
+      text-transform: uppercase;
+      transition: all 0.5s;
+      width: 50%;
+      width: 50%;
+      &::after {
+        background-color: inherit;
+        border-radius: inherit;
+        content: "";
+        display: inline-block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.4s;
+        width: 100%;
+        z-index: -1;
+      }
+      &:hover {
+        box-shadow: 0px 47px 46px 10px rgb(0 0 0 / 71%);
+        transform: translateY(-4px);
+        &::after {
+          opacity: 0;
+          transform: scaleX(1.4) scaleY(1.6);
+        }
+      }
       @apply flex items-center justify-center bg-oli-primary-orange rounded-full text-center;
+    }
+  }
+  .wpforms-field-phone {
+    .iti.iti--allow-dropdown {
+      .iti__flag-container {
+        left: 50% !important;
+        margin: auto !important;
+        transform: translateX(-50%) !important;
+        width: 50% !important;
+        z-index: 9999 !important;
+      }
+      input.wpforms-field-medium.wpforms-smart-phone-field.wpforms-input-temp-name {
+        padding-left: 6rem !important;
+      }
     }
   }
 }
@@ -69,15 +83,22 @@
 @media (max-width: 768px) {
   .wkode-contact {
     input {
-      width: 80% !important;
       max-width: none !important;
+      width: 80% !important;
     }
     textarea.wpforms-field-medium {
-      width: 80% !important;
       max-width: none !important;
+      width: 80% !important;
     }
     button.wpforms-submit {
       width: 80% !important;
+    }
+    .wpforms-field-phone {
+      .iti.iti--allow-dropdown {
+        .iti__flag-container {
+          width: 80% !important;
+        }
+      }
     }
   }
 }
