@@ -44,7 +44,7 @@
                       </a>
                    </li> -->
                    <li class="wkode-footer__li icons"> 
-                      <a target="_blank" href="https://wa.me/5541995240664" class="wkode-footer__a">
+                      <a target="_blank" href="https://wa.me/5541997120295" class="wkode-footer__a">
                         <img class="" src="<?php echo get_theme_file_uri('/assets/img/whats.svg'); ?>" alt="" >
                         Whatsapp
 
@@ -75,7 +75,7 @@
                     <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.youtube.com/@OliVideos-cv1wm/featured" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-youtube.svg'); ?>" alt="" class="">
                     </a>
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://wa.me/5541995240664" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://wa.me/5541997120295" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-whats.svg'); ?>" alt="" class="">
                     </a>
                   </nav>

@@ -37,7 +37,7 @@
               <a target="_blank" class="wkode-header__social-media-icon" href="https://www.youtube.com/@OliVideos-cv1wm/featured" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/youtube.svg'); ?>" alt="" class="">
               </a>
-              <a target="_blank" class="wkode-header__social-media-icon" href="https://wa.me/5541995240664" >
+              <a target="_blank" class="wkode-header__social-media-icon" href="https://wa.me/5541997120295" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/whatsapp.svg'); ?>" alt="" class="">
               </a>
             </nav>
