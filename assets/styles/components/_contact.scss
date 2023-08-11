@@ -67,10 +67,10 @@
   .wpforms-field-phone {
     .iti.iti--allow-dropdown {
       .iti__flag-container {
-        left: 50% !important;
+        left: 29% !important;
         margin: auto !important;
         transform: translateX(-50%) !important;
-        width: 50% !important;
+        width: 7% !important;
         z-index: 9999 !important;
       }
       input.wpforms-field-medium.wpforms-smart-phone-field.wpforms-input-temp-name {
@@ -96,7 +96,20 @@
     .wpforms-field-phone {
       .iti.iti--allow-dropdown {
         .iti__flag-container {
-          width: 80% !important;
+          left: 16% !important;
+          width: 10% !important;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 464px) {
+  .wkode-contact-block {
+    .wpforms-field-phone {
+      .iti.iti--allow-dropdown {
+        .iti__flag-container {
+          left: 19% !important;
+          width: 18% !important;
         }
       }
     }
