@@ -1,10 +1,10 @@
 <?php get_header();?>
 
 <section class="wkode-hero-section text-black pt-60 md:pt-40 font-montserrat " id="hero">
-    <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-2 h-full container">
-        <div class="wkode-hero-section__call-to-action p-0 md:pr-9 mb-36 md:mb-0">
+    <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-7 h-full container">
+        <div class="wkode-hero-section__call-to-action p-0 md:pr-9 mb-36 md:mb-0 col-span-3">
             <h1 class="wkode-hero-section__main-title">
-                <span data-entrance="from-left" class=" text-6xl mb-7 font-bold  block">
+                <span data-entrance="from-left" class=" text-5xl mb-7 font-bold  block">
                     Descomplique a <span class="text-oli-primary-orange">Manutenção Preventiva</span> em <span class="text-oli-primary-orange">Transmissões Automáticas</span> e Sistemas 4X4.
                 </span>
             </h1>
@@ -19,7 +19,10 @@
                 </a>
             </div>
         </div>
-        <div class="wkode-hero-section__image" data-entrance="from-right">
+        <div class="wkode-hero-section__oli col-span-1 flex items-center">
+            <img class="w-full m-auto" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
+        </div>
+        <div class="wkode-hero-section__image col-span-3" data-entrance="from-right">
             <img class="" src="<?php echo get_theme_file_uri('/assets/img/hero-phone.png'); ?>" alt="" >
         </div>
     </div>

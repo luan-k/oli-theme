@@ -457,6 +457,12 @@ video {
 /* .my-obj {
     @apply bg-brand-primary text-center text-brand-tertiary font-customFontName;
   } */
+.col-span-1{
+  grid-column: span 1 / span 1;
+}
+.col-span-3{
+  grid-column: span 3 / span 3;
+}
 .m-auto{
   margin: auto;
 }
@@ -506,6 +512,9 @@ video {
 .block{
   display: block;
 }
+.flex{
+  display: flex;
+}
 .grid{
   display: grid;
 }
@@ -541,6 +550,9 @@ video {
 }
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.items-center{
+  align-items: center;
 }
 .gap-16{
   gap: 4rem;
@@ -1522,7 +1534,7 @@ body {
   border-radius: 15px;
   margin-bottom: 2.1rem;
   margin-top: 1rem;
-  width: 63%;
+  width: 73%;
 }
 .wkode-btn--solid-main-red::after {
   background-color: inherit;
@@ -1836,6 +1848,9 @@ wkode-btn wkode-btn--solid-white-red
   }
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .md\:grid-cols-7{
+    grid-template-columns: repeat(7, minmax(0, 1fr));
   }
   .md\:pr-9{
     padding-right: 2.25rem;
