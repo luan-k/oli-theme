@@ -12,7 +12,7 @@
 
 <body <?php body_class(); ?> >
 	<div class="wraper" >
-     <header class="wkode-header font-montserrat text-oli-secondary-blue pt-12">
+     <header class="wkode-header font-montserrat text-oli-secondary-blue py-12 bg-oli-primary-blue">
       <div class="wkode-header__nav wkode-header__nav--top container">
         <div class="wkode-header__logo-wraper">
 					<a class="" href="<?php echo esc_url(site_url()); ?>">

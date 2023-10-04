@@ -1,16 +1,17 @@
 <?php get_header();?>
 
-<section class="wkode-hero-section text-white pt-60 md:pt-40 font-montserrat " id="hero">
+<section class="wkode-hero-section text-black pt-60 md:pt-40 font-montserrat " id="hero">
     <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-2 h-full container">
         <div class="wkode-hero-section__call-to-action p-0 md:pr-9 mb-36 md:mb-0">
             <h1 class="wkode-hero-section__main-title">
-                <span data-entrance="from-top" class="text-4xl mb-4 font-thin text-oli-secondary-blue block">Esse App é para você!</span>
-                <span data-entrance="from-top-left" class="text-5xl mb-3 font-medium block">Descomplique a Manutenção <br> Preventiva em</span>
-                <span data-entrance="from-left" class=" text-6xl mb-7 font-bold text-oli-primary-orange block"><span class="wkode-hero-section__main-title--call">Transmissões Automáticas</span> <span class="wkode-hero-section__main-title--call">e Sistemas 4X4</span> </span>
+                <span data-entrance="from-left" class=" text-6xl mb-7 font-bold  block">
+                    Descomplique a <span class="text-oli-primary-orange">Manutenção Preventiva</span> em <span class="text-oli-primary-orange">Transmissões Automáticas</span> e Sistemas 4X4.
+                </span>
             </h1>
             <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
-                Tenha acesso a milhares de procedimentos em vídeo e texto, acelerando sua gestão de compras, orçamentos e aumentando a rentabilidade do seu negócio.
+                OliApp tem <span class="text-5xl font-bold text-oli-primary-orange">2.200</span>  procedimentos detalhados em texto e vídeo, para aumentar sua oferta de serviços e faturamento. 
             </h2>
+            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red wkode-btn--solid-main-red--new text-4xl">Escolha Seu plano</a>
             <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-left">
                 <img class="w-56 md:w-72 m-auto mr-7" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
                 <a href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
@@ -22,8 +23,8 @@
             <img class="" src="<?php echo get_theme_file_uri('/assets/img/hero-phone.png'); ?>" alt="" >
         </div>
     </div>
-    <img class="wkode-hero-section__bg-image" src="<?php echo get_theme_file_uri('/assets/img/hero-bg.png'); ?>" >
-    <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" >
+    <!-- <img class="wkode-hero-section__bg-image" src="<?php echo get_theme_file_uri('/assets/img/hero-bg.png'); ?>" >
+    <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" > -->
 </section>
 
 <section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat" id="sobre">
