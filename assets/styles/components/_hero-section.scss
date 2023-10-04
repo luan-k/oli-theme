@@ -1,16 +1,16 @@
 .wkode-hero-section {
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 80vh;
+  background-size: cover;
   height: 100rem;
+  min-height: 80vh;
   position: relative;
 
   &__call-to-action {
+    align-content: flex-start;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-content: flex-start;
     justify-content: center;
   }
   &__main-title {
@@ -34,27 +34,33 @@
     justify-content: center;
   }
   &__wrapper {
-    z-index: 999;
     position: relative;
+    z-index: 999;
   }
   &__bg-image {
+    display: block;
+    height: 120rem;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
-    height: 120rem;
     z-index: 998;
-    display: block;
   }
   &__bg-image-mob {
+    display: none;
+    height: 130%;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
-    height: 130%;
     z-index: 998;
-    display: none;
   }
+}
+.wkode-circle-hero {
+  position: absolute;
+  right: 0;
+  top: 50rem;
+  width: 50%;
 }
 @media (max-width: 768px) {
   .wkode-hero-section {

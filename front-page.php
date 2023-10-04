@@ -30,6 +30,8 @@
     <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" > -->
 </section>
 
+<img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+
 <section class="wkode-numbers py-24" id="my-counter" >
     <div class="wkode-numbers__wrapper text-white grid grid-cols-1 md:grid-cols-3 container gap-9">
         <div class="wkode-numbers__card mb-20 md:mb-0">

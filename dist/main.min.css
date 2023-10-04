@@ -457,6 +457,9 @@ video {
 /* .my-obj {
     @apply bg-brand-primary text-center text-brand-tertiary font-customFontName;
   } */
+.relative{
+  position: relative;
+}
 .col-span-1{
   grid-column: span 1 / span 1;
 }
@@ -663,10 +666,6 @@ video {
 }
 .text-5xl{
   font-size: 3rem;
-  line-height: 1;
-}
-.text-6xl{
-  font-size: 3.75rem;
   line-height: 1;
 }
 .text-7xl{
@@ -1067,17 +1066,17 @@ body {
 }
 .wkode-hero-section {
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
-  min-height: 80vh;
+  background-size: cover;
   height: 100rem;
+  min-height: 80vh;
   position: relative;
 }
 .wkode-hero-section__call-to-action {
+  align-content: flex-start;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  align-content: flex-start;
   justify-content: center;
 }
 .wkode-hero-section__main-title .text-5xl {
@@ -1099,26 +1098,33 @@ body {
   justify-content: center;
 }
 .wkode-hero-section__wrapper {
-  z-index: 999;
   position: relative;
+  z-index: 999;
 }
 .wkode-hero-section__bg-image {
+  display: block;
+  height: 120rem;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 120rem;
   z-index: 998;
-  display: block;
 }
 .wkode-hero-section__bg-image-mob {
+  display: none;
+  height: 130%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 130%;
   z-index: 998;
-  display: none;
+}
+
+.wkode-circle-hero {
+  position: absolute;
+  right: 0;
+  top: 50rem;
+  width: 50%;
 }
 
 @media (max-width: 768px) {

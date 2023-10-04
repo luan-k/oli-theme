@@ -11,7 +11,7 @@
 </head>
 
 <body <?php body_class(); ?> >
-	<div class="wraper" >
+	<div class="wraper relative" >
      <header class="wkode-header font-montserrat text-oli-secondary-blue py-12 bg-oli-primary-blue">
       <div class="wkode-header__nav wkode-header__nav--top container">
         <div class="wkode-header__logo-wraper">
