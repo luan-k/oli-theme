@@ -30,6 +30,52 @@
     <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" > -->
 </section>
 
+<section class="wkode-numbers py-24" id="my-counter" >
+    <div class="wkode-numbers__wrapper text-white grid grid-cols-1 md:grid-cols-3 container gap-9">
+        <div class="wkode-numbers__card mb-20 md:mb-0">
+            <div class="wkode-numbers__icon mb-7">
+                <img data-entrance="from-top-left" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-youtube.png'); ?>" >
+            </div>
+            <div class="wkode-numbers__number text-center mb-7">
+                <h2 data-entrance="from-left" class="timer text-7xl font-black" data-to="2193" data-speed="3000"></h2>
+            </div>
+            <div class="wkode-numbers__text">
+                <h3 data-entrance="from-bottom-left" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
+                    Procedimentos em videos
+                </h3>
+            </div>
+        </div>
+        <div class="wkode-numbers__card mb-20 md:mb-0" >
+            <div class="wkode-numbers__icon mb-7">
+                <img data-entrance="from-top" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-car.png'); ?>" >
+            </div>
+            <div class="wkode-numbers__number text-center mb-7">
+                <h2 data-entrance="fade" class="timer text-7xl font-black" data-to="1200" data-speed="3000"></h2>
+            </div>
+            <div class="wkode-numbers__text">
+                <h3 data-entrance="from-bottom" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
+                    Modelos de veículos
+                </h3>
+            </div>
+        </div>
+        <div class="wkode-numbers__card ">
+            <div class="wkode-numbers__icon mb-7">
+                <img data-entrance="from-top-right" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-phone.png'); ?>" >
+            </div>
+            <div class="wkode-numbers__number text-center mb-7">
+                <h2 data-entrance="from-right" class="timer text-7xl font-black" data-to="1109" data-speed="3000"></h2>
+            </div>
+            <div class="wkode-numbers__text">
+                <h3 data-entrance="from-bottom-right" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
+                    Manuais técnicos
+                </h3>
+            </div>
+        </div>
+    </div>
+    <img class="wkode-numbers__bg-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-bg.png'); ?>" >
+</section>
+
+
 <section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat" id="sobre">
     <div class="wkode-about-us__wrapper container">
         <div class="wkode-about-us__logo text-center" data-entrance="from-bottom">
@@ -86,50 +132,6 @@
     <img class="wkode-about-us__bg-image" src="<?php echo get_theme_file_uri('/assets/img/about-us-bg.png'); ?>" >
 </section>
 
-<section class="wkode-numbers py-24" id="my-counter" >
-    <div class="wkode-numbers__wrapper text-white grid grid-cols-1 md:grid-cols-3 container gap-9">
-        <div class="wkode-numbers__card mb-20 md:mb-0">
-            <div class="wkode-numbers__icon mb-7">
-                <img data-entrance="from-top-left" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-youtube.png'); ?>" >
-            </div>
-            <div class="wkode-numbers__number text-center mb-7">
-                <h2 data-entrance="from-left" class="timer text-7xl font-black" data-to="2193" data-speed="3000"></h2>
-            </div>
-            <div class="wkode-numbers__text">
-                <h3 data-entrance="from-bottom-left" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
-                    Procedimentos em videos
-                </h3>
-            </div>
-        </div>
-        <div class="wkode-numbers__card mb-20 md:mb-0" >
-            <div class="wkode-numbers__icon mb-7">
-                <img data-entrance="from-top" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-car.png'); ?>" >
-            </div>
-            <div class="wkode-numbers__number text-center mb-7">
-                <h2 data-entrance="fade" class="timer text-7xl font-black" data-to="1200" data-speed="3000"></h2>
-            </div>
-            <div class="wkode-numbers__text">
-                <h3 data-entrance="from-bottom" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
-                    Modelos de veículos
-                </h3>
-            </div>
-        </div>
-        <div class="wkode-numbers__card ">
-            <div class="wkode-numbers__icon mb-7">
-                <img data-entrance="from-top-right" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-phone.png'); ?>" >
-            </div>
-            <div class="wkode-numbers__number text-center mb-7">
-                <h2 data-entrance="from-right" class="timer text-7xl font-black" data-to="1109" data-speed="3000"></h2>
-            </div>
-            <div class="wkode-numbers__text">
-                <h3 data-entrance="from-bottom-right" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
-                    Manuais técnicos
-                </h3>
-            </div>
-        </div>
-    </div>
-    <img class="wkode-numbers__bg-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-bg.png'); ?>" >
-</section>
 
 
 <section class="wkode-carousel font-montserrat" id="planos" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/cards-bg-60.png'); ?>)">
