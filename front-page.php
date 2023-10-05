@@ -301,47 +301,42 @@
 </section>
 
 
-<section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat" id="sobre">
+<section class="wkode-about-us pt-24 mt-36 font-montserrat" id="sobre">
     <div class="wkode-about-us__wrapper container">
-<!--         <div class="wkode-about-us__logo text-center" data-entrance="from-bottom">
-            <img class="m-auto w-60" src="<?php echo get_theme_file_uri('/assets/img/logo-dark.svg')?>" >
-        </div> -->
        
         <div class="wkode-about-us__wrapper grid grid-cols-1  mt-28">
             
             <div data-entrance="from-left" class="wkode-about-us__text font-medium text-oli-primary-blue text-3xl px-12 mt-16 pb-12">
-<!--                 <p class="wkode-about-us__text--p mb-12">
-                    A OLI é uma plataforma de suporte técnico para manutenção preventiva de transmissões
-                    automáticas veiculares, disponibilizando ampla base de informações para que aplicadores
-                    possam realizar troca de fluidos, substituição de filtros, aplicação de aditivos e outros
-                    processos necessários aos cuidados para com o veículo.
-                </p> -->
 
                 <div class="wkode-about-us__text--list-wrapper">
-                    
-                    Dentre as inúmeras funcionalidades da plataforma, a OLI oferece:
+                    <h3 class="font-bold text-5xl text-center mb-36">
+                        Solicite uma apresentação da OLI
+                    </h3>
+                    <h3 class="font-bold text-5xl text-center mb-36">
+                        Dentre as inúmeras funcionalidades da plataforma, a OLI oferece:
+                    </h3>
                     <ul>
-                        <li>
+                        <li class="py-7 px-6 bg-list">
                             <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
                             <p>Indicação do fluído e sua respectiva norma de aplicação;</p>
                         </li>
-                        <li>
+                        <li class="py-7 px-6">
                             <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
                             <p>Indicação de aditivos de limpeza, conversão, proteção e outras finalidades;</p>
                         </li>
-                        <li>
+                        <li class="py-7 px-6 bg-list">
                             <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
                             <p>Indicação do filtro interno, externo e/ou Carter;</p>
                         </li>
-                        <li>
+                        <li class="py-7 px-6">
                             <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
                             <p>Km ideal para realização de manutenção;</p>
                         </li>
-                        <li>
+                        <li class="py-7 px-6 bg-list">
                             <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
                             <p>Tempo de serviço necessário para realização do procedimento;</p>
                         </li>
-                        <li>
+                        <li class="py-7 px-6">
                             <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
                             <p>Todas as informações acima de forma quantitativas e qualitativas, com passo
                             a passo em vídeo e quadro descritivo em texto, seja para realização do procedimento de forma manual ou com máquina.</p>

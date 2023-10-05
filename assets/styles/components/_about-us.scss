@@ -1,8 +1,8 @@
 .wkode-about-us {
   position: relative;
   &__wrapper {
-    z-index: 999;
     position: relative;
+    z-index: 999;
   }
   &__logo {
   }
@@ -10,38 +10,38 @@
     line-height: 3rem;
     &--list-wrapper {
       ul {
-        padding-left: 1rem;
         margin-top: 3rem;
+        padding-left: 1rem;
         li {
           @apply grid grid-cols-12;
           p {
             @apply col-span-11;
           }
           img {
-            width: 3.7rem;
             margin-right: 1.5rem;
+            width: 3.7rem;
             @apply col-span-1;
           }
           &:not(:last-of-type) {
-            margin-bottom: 2rem;
+            /* margin-bottom: 2rem; */
           }
         }
       }
     }
   }
   &__bg-image {
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
     position: absolute;
     top: -10rem;
-    left: 0;
     width: 100%;
-    height: 100%;
     z-index: 997;
-    display: block;
-    opacity: 0.2;
   }
   &__main-image {
-    display: flex;
     align-items: center;
+    display: flex;
     height: 100%;
   }
 }
