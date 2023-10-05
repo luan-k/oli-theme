@@ -77,65 +77,6 @@
     <img class="wkode-numbers__bg-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-bg.png'); ?>" >
 </section>
 
-
-<section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat" id="sobre">
-    <div class="wkode-about-us__wrapper container">
-        <div class="wkode-about-us__logo text-center" data-entrance="from-bottom">
-            <img class="m-auto w-60" src="<?php echo get_theme_file_uri('/assets/img/logo-dark.svg')?>" >
-        </div>
-       
-        <div class="wkode-about-us__wrapper grid grid-cols-1 md:grid-cols-2 mt-28">
-            
-            <div data-entrance="from-left" class="wkode-about-us__text font-medium text-oli-primary-blue text-3xl px-12 mt-16 pb-12">
-                <p class="wkode-about-us__text--p mb-12">
-                    A OLI é uma plataforma de suporte técnico para manutenção preventiva de transmissões
-                    automáticas veiculares, disponibilizando ampla base de informações para que aplicadores
-                    possam realizar troca de fluidos, substituição de filtros, aplicação de aditivos e outros
-                    processos necessários aos cuidados para com o veículo.
-                </p>
-
-                <div class="wkode-about-us__text--list-wrapper">
-                    
-                    Dentre as inúmeras funcionalidades da plataforma, a OLI oferece:
-                    <ul>
-                        <li>
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Indicação do fluído e sua respectiva norma de aplicação;</p>
-                        </li>
-                        <li>
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Indicação de aditivos de limpeza, conversão, proteção e outras finalidades;</p>
-                        </li>
-                        <li>
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Indicação do filtro interno, externo e/ou Carter;</p>
-                        </li>
-                        <li>
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Km ideal para realização de manutenção;</p>
-                        </li>
-                        <li>
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Tempo de serviço necessário para realização do procedimento;</p>
-                        </li>
-                        <li>
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Todas as informações acima de forma quantitativas e qualitativas, com passo
-                            a passo em vídeo e quadro descritivo em texto, seja para realização do procedimento de forma manual ou com máquina.</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="wkode-about-us__image wkode-about-us__main-image">
-                <img data-entrance="from-right" class="m-auto px-20 w-full" src="<?php echo get_theme_file_uri('/assets/img/about-us-side-2.png'); ?>" alt="" >
-            </div>
-        </div>
-    </div>
-    <img class="wkode-about-us__bg-image" src="<?php echo get_theme_file_uri('/assets/img/about-us-bg.png'); ?>" >
-</section>
-
-
-
 <section class="wkode-carousel font-montserrat" id="planos" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/cards-bg-60.png'); ?>)">
   <button class="wkode-carousel__arrow wkode-carousel__arrow_prev">&#8249;</button>
   <button class="wkode-carousel__arrow wkode-carousel__arrow_next">&#8250;</button>
@@ -358,6 +299,64 @@
     </li>
   </ul>
 </section>
+
+
+<section class="wkode-about-us pt-96 mt-36 md:pt-80 font-montserrat" id="sobre">
+    <div class="wkode-about-us__wrapper container">
+<!--         <div class="wkode-about-us__logo text-center" data-entrance="from-bottom">
+            <img class="m-auto w-60" src="<?php echo get_theme_file_uri('/assets/img/logo-dark.svg')?>" >
+        </div> -->
+       
+        <div class="wkode-about-us__wrapper grid grid-cols-1  mt-28">
+            
+            <div data-entrance="from-left" class="wkode-about-us__text font-medium text-oli-primary-blue text-3xl px-12 mt-16 pb-12">
+<!--                 <p class="wkode-about-us__text--p mb-12">
+                    A OLI é uma plataforma de suporte técnico para manutenção preventiva de transmissões
+                    automáticas veiculares, disponibilizando ampla base de informações para que aplicadores
+                    possam realizar troca de fluidos, substituição de filtros, aplicação de aditivos e outros
+                    processos necessários aos cuidados para com o veículo.
+                </p> -->
+
+                <div class="wkode-about-us__text--list-wrapper">
+                    
+                    Dentre as inúmeras funcionalidades da plataforma, a OLI oferece:
+                    <ul>
+                        <li>
+                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
+                            <p>Indicação do fluído e sua respectiva norma de aplicação;</p>
+                        </li>
+                        <li>
+                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
+                            <p>Indicação de aditivos de limpeza, conversão, proteção e outras finalidades;</p>
+                        </li>
+                        <li>
+                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
+                            <p>Indicação do filtro interno, externo e/ou Carter;</p>
+                        </li>
+                        <li>
+                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
+                            <p>Km ideal para realização de manutenção;</p>
+                        </li>
+                        <li>
+                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
+                            <p>Tempo de serviço necessário para realização do procedimento;</p>
+                        </li>
+                        <li>
+                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
+                            <p>Todas as informações acima de forma quantitativas e qualitativas, com passo
+                            a passo em vídeo e quadro descritivo em texto, seja para realização do procedimento de forma manual ou com máquina.</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- <div class="wkode-about-us__image wkode-about-us__main-image">
+                <img data-entrance="from-right" class="m-auto px-20 w-full" src="<?php echo get_theme_file_uri('/assets/img/about-us-side-2.png'); ?>" alt="" >
+            </div> -->
+        </div>
+    </div>
+    <img class="wkode-about-us__bg-image" src="<?php echo get_theme_file_uri('/assets/img/about-us-bg.png'); ?>" >
+</section>
+
 
 <section class="testimonial-section my-48">
     
