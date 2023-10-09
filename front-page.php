@@ -302,7 +302,7 @@
 </section>
 
 
-<section class="wkode-about-us pt-24 mt-36 font-montserrat" id="sobre">
+<section class="wkode-about-us py-24 font-montserrat" id="sobre">
     <div class="wkode-about-us__wrapper container">
        
         <div class="wkode-about-us__wrapper grid grid-cols-1  mt-28">
@@ -353,6 +353,59 @@
     <img class="wkode-about-us__bg-image" src="<?php echo get_theme_file_uri('/assets/img/about-us-bg.png'); ?>" >
 </section>
 
+<section class="wkode-icons py-40">
+    <h2 class="wkode-icon-title">Conheça as funcionalidades do OliApp</h2>
+    <div class="container grid grid-cols-1 md:grid-cols-4 gap-12 ">
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/procedimentos.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                procedimentos
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/tutoriais.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                tutoriais
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/tecnologia.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                tecnologia
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/inovacao.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                inovação
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/atualizacoes.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                atualizações
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/resultados.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                Resultados
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/suporte.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                suporte
+            </h3>
+        </div>
+        <div class="wkode-icon">
+            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/eficiencia.svg'); ?>" >
+            <h3 class="wkode-icon-text text-center">
+                eficiência
+            </h3>
+        </div>
+    </div>
+</section>
 
 <section class="testimonial-section my-48">
     
