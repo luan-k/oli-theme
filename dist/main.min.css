@@ -479,6 +479,9 @@ video {
 .mb-20{
   margin-bottom: 5rem;
 }
+.mb-24{
+  margin-bottom: 6rem;
+}
 .mb-36{
   margin-bottom: 9rem;
 }
@@ -511,9 +514,6 @@ video {
 }
 .mt-36{
   margin-top: 9rem;
-}
-.mb-24{
-  margin-bottom: 6rem;
 }
 .block{
   display: block;
@@ -1855,6 +1855,9 @@ wkode-btn wkode-btn--solid-white-red
 @media (min-width: 768px){
   .md\:mb-0{
     margin-bottom: 0px;
+  }
+  .md\:mb-auto{
+    margin-bottom: auto;
   }
   .md\:w-60{
     width: 15rem;

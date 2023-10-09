@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="wkode-hero-section__oli col-span-1 flex items-center">
-            <img class="w-60 md:w-full m-auto mb-24 md:mb-0" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
+            <img class="w-60 md:w-full m-auto mb-24 md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
         </div>
         <div class="wkode-hero-section__image col-span-3" data-entrance="from-right">
             <img class="" src="<?php echo get_theme_file_uri('/assets/img/hero-phone.png'); ?>" alt="" >
