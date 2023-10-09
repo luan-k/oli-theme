@@ -512,6 +512,9 @@ video {
 .mt-36{
   margin-top: 9rem;
 }
+.mb-24{
+  margin-bottom: 6rem;
+}
 .block{
   display: block;
 }
@@ -541,6 +544,9 @@ video {
 }
 .w-56{
   width: 14rem;
+}
+.w-60{
+  width: 15rem;
 }
 .w-full{
   width: 100%;
@@ -626,6 +632,9 @@ video {
 .pb-16{
   padding-bottom: 4rem;
 }
+.pb-24{
+  padding-bottom: 6rem;
+}
 .pb-96{
   padding-bottom: 24rem;
 }
@@ -635,20 +644,17 @@ video {
 .pt-16{
   padding-top: 4rem;
 }
+.pt-24{
+  padding-top: 6rem;
+}
 .pt-32{
   padding-top: 8rem;
 }
 .pt-56{
   padding-top: 14rem;
 }
-.pt-60{
-  padding-top: 15rem;
-}
-.pt-96{
-  padding-top: 24rem;
-}
-.pt-24{
-  padding-top: 6rem;
+.pt-80{
+  padding-top: 20rem;
 }
 .text-center{
   text-align: center;
@@ -1125,13 +1131,17 @@ body {
 }
 
 .wkode-circle-hero {
+  height: auto;
   position: absolute;
   right: 0;
   top: 50rem;
   width: 50%;
 }
-
 @media (max-width: 768px) {
+  .wkode-circle-hero {
+    bottom: 0;
+    top: auto;
+  }
   .wkode-hero-section {
     height: auto;
   }
@@ -1198,25 +1208,25 @@ body {
   }
 }
 .wkode-numbers {
+  margin-top: 0rem;
   position: relative;
-  margin-top: 7rem;
 }
 .wkode-numbers__wrapper {
-  z-index: 999;
   position: relative;
+  z-index: 999;
 }
 .wkode-numbers__bg-image {
+  display: block;
+  height: 100%;
+  left: 0;
   position: absolute;
   top: 0;
-  left: 0;
   width: 100%;
-  height: 100%;
   z-index: 997;
-  display: block;
 }
 .wkode-numbers__icon-image {
-  width: 10rem;
   margin: auto;
+  width: 10rem;
 }
 .wkode-numbers__text--header {
   font-style: italic;
@@ -1852,6 +1862,9 @@ wkode-btn wkode-btn--solid-white-red
   .md\:w-72{
     width: 18rem;
   }
+  .md\:w-full{
+    width: 100%;
+  }
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1866,8 +1879,5 @@ wkode-btn wkode-btn--solid-white-red
   }
   .md\:pt-40{
     padding-top: 10rem;
-  }
-  .md\:pt-80{
-    padding-top: 20rem;
   }
 }

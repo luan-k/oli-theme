@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<section class="wkode-hero-section text-black pt-60 md:pt-40 font-montserrat " id="hero">
+<section class="wkode-hero-section text-black pt-80 md:pt-40 font-montserrat pb-24" id="hero">
     <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-7 h-full container">
         <div class="wkode-hero-section__call-to-action p-0 md:pr-9 mb-36 md:mb-0 col-span-3">
             <h1 class="wkode-hero-section__main-title">
@@ -20,7 +20,7 @@
             </div>
         </div>
         <div class="wkode-hero-section__oli col-span-1 flex items-center">
-            <img class="w-full m-auto" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
+            <img class="w-60 md:w-full m-auto mb-24 md:mb-0" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
         </div>
         <div class="wkode-hero-section__image col-span-3" data-entrance="from-right">
             <img class="" src="<?php echo get_theme_file_uri('/assets/img/hero-phone.png'); ?>" alt="" >
@@ -28,9 +28,10 @@
     </div>
     <!-- <img class="wkode-hero-section__bg-image" src="<?php echo get_theme_file_uri('/assets/img/hero-bg.png'); ?>" >
     <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" > -->
+    <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </section>
 
-<img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+
 
 <section class="wkode-numbers py-24" id="my-counter" >
     <div class="wkode-numbers__wrapper text-white grid grid-cols-1 md:grid-cols-3 container gap-9">
