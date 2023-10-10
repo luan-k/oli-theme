@@ -2104,7 +2104,7 @@ body.modal-open::after {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 98;
+  z-index: 999;
 }
 @media (min-width: 768px){
   .md\:col-span-2{

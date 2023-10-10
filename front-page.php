@@ -11,7 +11,7 @@
             <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
                 OliApp tem <span class="text-5xl font-bold text-oli-primary-orange">2.200</span>  procedimentos detalhados em texto e vídeo, para aumentar sua oferta de serviços e faturamento. 
             </h2>
-            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red wkode-btn--solid-main-red--new text-4xl">Escolha Seu plano</a>
+            <a href="#planos" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red wkode-btn--solid-main-red--new text-4xl">Escolha Seu plano</a>
             <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-left">
                 <img class="w-56 md:w-72 m-auto mr-7" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
                 <a href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
@@ -121,7 +121,7 @@
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <a href="" id="openModalBtnCard1" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
@@ -164,7 +164,7 @@
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <a href="" id="openModalBtnCard2" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
@@ -206,7 +206,7 @@
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <a href="" id="openModalBtnCard3" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
@@ -250,7 +250,7 @@
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <a href="" id="openModalBtnCard4" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
         </div>
     </li>
@@ -294,7 +294,7 @@
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
+            <a href="" id="openModalBtnCard5" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
         </div>
     </li>
@@ -413,32 +413,32 @@
     <div class="testimonial-wrapper ">
         <div class="testimonial-wrapper-wrapper font-montserrat">
             <div class="testimonial text-black text-center px-20">
-                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/BECKER-OFICINA.jpg'); ?>" >
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/mecanica.jpg'); ?>" >
                 <p class="testimonial-text text-black text-3xl font-medium mb-12">
-                    "Incríveis os vídeos e o suporte dos caras, já se pagou no primeiro cliente!"
+                    "O aplicativo é show de bola, ele é bem detalhado, com informações bem claras, passa tudo muito certinho, é um aplicativo 100%"
                 </p>
-                <h4 class="text-black text-4xl font-semibold">Becker Oficina</h4>
+                <h4 class="text-black text-4xl font-semibold">Mecanica automotiva</h4>
             </div>
             <div class="testimonial text-black text-center px-20">
-                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/CARLOS.jpg'); ?>" >
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/alberto.jpg'); ?>" >
                 <p class="testimonial-text text-black text-3xl font-medium mb-12">
-                    "Recebi a indicação de um amigo profissional e já aprendi muito. Parabéns pela qualidade dos vídeos e manuais."
+                    "O app oli facilitou demais nossa atuação e agilizou todo atendimento e serviço que oferecemos, já que cada procedimento é super bem detalhado e simples de encontrar. Pelo modelo do carro e o tipo de serviço, tudo aparece rápido e fácil de entender. É sensacional."
                 </p>
-                <h4 class="text-black text-4xl font-semibold">Carlos Costa Ribeiro</h4>
+                <h4 class="text-black text-4xl font-semibold">Alberto Fernandes Silva</h4>
             </div>
             <div class="testimonial text-black text-center px-20">
-                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/SUPERNOVA.jpg'); ?>" >
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/paulo.jpg'); ?>" >
                 <p class="testimonial-text text-black text-3xl font-medium mb-12">
-                    "Equipe muito bem treinada e capacitada. Atendimento top! Não tem nenhum problema que eles deixem sem solução."
+                    "O aplicativo é top e ajuda muito no dia a dia da oficina. Além de tudo, ainda tem suporte para tirar dúvidas e ajudar nos procedimentos. Sensacional"
                 </p>
-                <h4 class="text-black text-4xl font-semibold">SuperNova Auto Center</h4>
+                <h4 class="text-black text-4xl font-semibold">Paulo Ribeiro Souza</h4>
             </div>
             <div class="testimonial text-black text-center px-20">
-                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/GUILHERME.jpg'); ?>" >
+                <img class="testimonial-image rounded-full m-auto w-48 mb-12" src="<?php echo get_theme_file_uri('/assets/img/renato.jpg'); ?>" >
                 <p class="testimonial-text text-black text-3xl font-medium mb-12">
-                    "O app é excelente, ajudou-me bastante e fez toda a diferença na oficina."
+                    "Sendo bem franco, pense em um negócio TOP. Minha irmã baixou o app no tablet da oficina, entra ali e já acessa a especificação do óleo, a quantidade, se tem filtro, não precisa ficar perguntando toda hora. Só nessa pegada dela fazer tudo sem me ligar, a gente ganhou milheiros. Fora os procedimentos, facilita e auxilia o reparador mecânico um monte. Parabéns a toda equipe, vocês são TOP, esse aplicativo é revolucionário"
                 </p>
-                <h4 class="text-black text-4xl font-semibold">Guilherme Botelho</h4>
+                <h4 class="text-black text-4xl font-semibold">Renato Geths </h4>
             </div>
         </div>
         
@@ -497,6 +497,7 @@
             <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
         </div>
     </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </div>
 
 <div class="wkode-single-used-bikes-template__form modal" id="myModal3">
@@ -517,6 +518,7 @@
             <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
         </div>
     </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </div>
 
 <div class="wkode-single-used-bikes-template__form modal" id="myModal4">
@@ -540,8 +542,90 @@
             <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
         </div>
     </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </div>
 
+<div class="wkode-single-used-bikes-template__form modal" id="myModal5">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        PRÉ-CADASTRO - PLANOS OLI APP
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="26" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                Olá, tudo bem! Vamos te ajudar! Preencha seu pré cadastro para que possamos orientar você na escolha do melhor plano Oli.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+</div>
 
+<div class="wkode-single-used-bikes-template__form modal" id="myModal6">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        PRÉ-CADASTRO - PLANOS OLI APP
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="26" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                Olá, tudo bem! Vamos te ajudar! Preencha seu pré cadastro para que possamos orientar você na escolha do melhor plano Oli.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+</div>
+
+<div class="wkode-single-used-bikes-template__form modal" id="myModal7">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        PRÉ-CADASTRO - PLANOS OLI APP
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="26" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                Olá, tudo bem! Vamos te ajudar! Preencha seu pré cadastro para que possamos orientar você na escolha do melhor plano Oli.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+</div>
+<div class="wkode-single-used-bikes-template__form modal" id="myModal8">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        PRÉ-CADASTRO - PLANOS OLI APP
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="26" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                Olá, tudo bem! Vamos te ajudar! Preencha seu pré cadastro para que possamos orientar você na escolha do melhor plano Oli.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+</div>
 
 <?php get_footer(); ?>
