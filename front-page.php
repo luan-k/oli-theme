@@ -455,5 +455,93 @@
     </div>
 </section>
 
+<div class="wkode-single-used-bikes-template__form modal" id="myModal">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        PRÉ-CADASTRO - PLANOS OLI APP
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="26" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                Olá, tudo bem! Vamos te ajudar! Preencha seu pré cadastro para que possamos orientar você na escolha do melhor plano Oli.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+     <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
+</div>
+
+<div class="wkode-single-used-bikes-template__form modal" id="myModal2">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        SEJA NOSSO REPRESENTANTE
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="27" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                SEJA NOSSO REPRESENTANTE!
+                A OliApp está bucando sempre
+                ampliar a rede de colaboradores
+                e carteira de clientes! amos juntos!
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+</div>
+
+<div class="wkode-single-used-bikes-template__form modal" id="myModal3">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        SEJA NOSSO ANUNCIANTE
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="28" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                SEJA NOSSO ANUNCIANTE! No OliApp você pode dar visibilidade à sua marca para um público super qualificado e aumentar sua receita.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+</div>
+
+<div class="wkode-single-used-bikes-template__form modal" id="myModal4">
+    <h2 class="wkode-single-used-bikes-template__form-title">
+        SEJA NOSSO PARCEIRO COMERCIAL
+        <span class="close">
+            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
+        </span>
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-5 p-12 md:p-28 md:gap-24">
+        <div class="wkode-form md:col-span-3">
+            <?php echo do_shortcode( '[wpforms id="27" title="false"]' ); ?>
+        </div>
+        <div class="wkode-svg-wrapper md:col-span-2">
+            <p class="wkode-form-text mb-7">
+                SEJA NOSSO PARCEIRO COMERCIAL
+                No OliApp sua empresa tem visibilidade
+                na nossa rede de contatos. Vamos
+                juntos divulgar sesu serviços com Oli.
+            </p>
+            <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
+        </div>
+    </div>
+</div>
+
+
 
 <?php get_footer(); ?>

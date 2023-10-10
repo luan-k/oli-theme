@@ -21,11 +21,11 @@
 				</div>
         <div class="wkode-header__nav wkode-header__nav--inner" id="navbarNavAltMarkup">
             <ul class="wkode-header__ul uppercase">
-              <li class="wkode-header__li"> <a href="#hero" class="">Soluçao Oli</a> </li>
-              <li class="wkode-header__li"> <a href="#planos" class="">Planos</a> </li>
-              <li class="wkode-header__li"> <a href="#siganos" class="">Seja vendedor</a> </li>
-              <li class="wkode-header__li"> <a href="#siganos" class="">Seja parceiro</a> </li>
-              <li class="wkode-header__li"> <a href="#siganos" class="">Seja anunciante</a> </li>
+              <li class="wkode-header__li"> <a href="#sobre" class="">Soluçao Oli</a> </li>
+              <li class="wkode-header__li"> <a href="#planos"  class="">Planos</a> </li>
+              <li class="wkode-header__li"> <a href="#" id="openModalBtn" class="">Seja vendedor</a> </li>
+              <li class="wkode-header__li"> <a href="#" id="openModalBtn2" class="">Seja parceiro</a> </li>
+              <li class="wkode-header__li"> <a href="#" id="openModalBtn3" class="">Seja anunciante</a> </li>
             </ul>
             <nav data-entrance="from-right" class="wkode-header__icons-wrapper">
               <a target="_blank" class="wkode-header__social-media-icon" href="https://www.instagram.com/oliappoficial/" >
