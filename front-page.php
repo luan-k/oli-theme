@@ -9,7 +9,7 @@
                 </span>
             </h1>
             <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
-                OliApp tem <span class="text-5xl font-bold text-oli-primary-orange">2.200</span>  procedimentos detalhados em texto e vídeo, para aumentar sua oferta de serviços e faturamento. 
+                OliApp tem <span class="text-5xl font-bold text-oli-primary-orange">2.193</span>  procedimentos detalhados em texto e vídeo, para aumentar sua oferta de serviços e faturamento. 
             </h2>
             <a href="#planos" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red wkode-btn--solid-main-red--new text-4xl">Escolha Seu plano</a>
             <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-left">
