@@ -34,7 +34,7 @@
               <a target="_blank" class="wkode-header__social-media-icon" href="https://www.facebook.com/oliappoficial" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/facebook.svg'); ?>" alt="" class="">
               </a>
-              <a target="_blank" class="wkode-header__social-media-icon" href="https://www.youtube.com/@OliVideos-cv1wm/featured" >
+              <a target="_blank" class="wkode-header__social-media-icon" href="https://www.youtube.com/@OLIAPP" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/youtube.svg'); ?>" alt="" class="">
               </a>
               <a target="_blank" class="wkode-header__social-media-icon" href="https://wa.me/5541997120295" >
