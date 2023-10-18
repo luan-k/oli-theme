@@ -1,23 +1,23 @@
 .wkode-numbers {
+  margin-top: 0rem;
   position: relative;
-  margin-top: 7rem;
   &__wrapper {
-    z-index: 999;
     position: relative;
+    z-index: 999;
   }
   &__bg-image {
+    display: block;
+    height: 100%;
+    left: 0;
     position: absolute;
     top: 0;
-    left: 0;
     width: 100%;
-    height: 100%;
     z-index: 997;
-    display: block;
   }
   &__icon {
     &-image {
-      width: 10rem;
       margin: auto;
+      width: 10rem;
     }
   }
   &__text {

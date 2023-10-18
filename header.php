@@ -11,8 +11,8 @@
 </head>
 
 <body <?php body_class(); ?> >
-	<div class="wraper" >
-     <header class="wkode-header font-montserrat text-oli-secondary-blue pt-12">
+	<div class="wraper relative" >
+     <header class="wkode-header font-montserrat text-oli-secondary-blue py-12 bg-oli-primary-blue">
       <div class="wkode-header__nav wkode-header__nav--top container">
         <div class="wkode-header__logo-wraper">
 					<a class="" href="<?php echo esc_url(site_url()); ?>">
@@ -20,12 +20,12 @@
 					</a>
 				</div>
         <div class="wkode-header__nav wkode-header__nav--inner" id="navbarNavAltMarkup">
-            <ul class="wkode-header__ul">
-              <li class="wkode-header__li"> <a href="#hero" class="">Home</a> </li>
-              <li class="wkode-header__li"> <a href="#sobre" class="">Sobre o App</a>  </li>
-              <li class="wkode-header__li"> <a href="#planos" class="">Planos</a> </li>
-              <li class="wkode-header__li"> <a href="#contato" class="">Contato</a> </li>
-              <li class="wkode-header__li"> <a href="#siganos" class="">Siga-nos</a> </li>
+            <ul class="wkode-header__ul uppercase">
+              <li class="wkode-header__li"> <a href="#sobre" class="">Soluçao Oli</a> </li>
+              <li class="wkode-header__li"> <a href="#planos"  class="">Planos</a> </li>
+              <li class="wkode-header__li"> <a href="#" id="openModalBtn" class="">Seja vendedor</a> </li>
+              <li class="wkode-header__li"> <a href="#" id="openModalBtn2" class="">Seja parceiro</a> </li>
+              <li class="wkode-header__li"> <a href="#" id="openModalBtn3" class="">Seja anunciante</a> </li>
             </ul>
             <nav data-entrance="from-right" class="wkode-header__icons-wrapper">
               <a target="_blank" class="wkode-header__social-media-icon" href="https://www.instagram.com/oliappoficial/" >
@@ -34,7 +34,7 @@
               <a target="_blank" class="wkode-header__social-media-icon" href="https://www.facebook.com/oliappoficial" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/facebook.svg'); ?>" alt="" class="">
               </a>
-              <a target="_blank" class="wkode-header__social-media-icon" href="https://www.youtube.com/@OliVideos-cv1wm/featured" >
+              <a target="_blank" class="wkode-header__social-media-icon" href="https://www.youtube.com/@OLIAPP" >
                 <img src="<?php echo get_theme_file_uri('/assets/img/youtube.svg'); ?>" alt="" class="">
               </a>
               <a target="_blank" class="wkode-header__social-media-icon" href="https://wa.me/5541997120295" >
