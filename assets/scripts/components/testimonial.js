@@ -89,4 +89,4 @@ setInterval(() => {
       wrapper.style.transform = `translateX(-${step * currentIndex}%)`;
     }
   }
-}, 5000);
+}, 20000);
