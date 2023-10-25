@@ -10,7 +10,9 @@
                   transmissões automáticas
                 </p>
                 <div class="wkode-hero-section__links grid grid-cols-2">
-                  <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-apple-white.svg'); ?>" alt="" >
+                  <a href="https://apps.apple.com/br/app/oli/id6451156427" target="_blank">
+                    <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-apple-white.svg'); ?>" alt="" >
+                  </a>
                   <a href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
                     <img class="w-11/12 m-auto ml-0" src="<?php echo get_theme_file_uri('/assets/img/download-google-white.svg'); ?>" alt="" >
                   </a>
