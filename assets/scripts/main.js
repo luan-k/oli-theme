@@ -28,3 +28,15 @@ document.querySelector('a[href^="#"]').addEventListener("click", function (e) {
     behavior: "smooth",
   });
 });
+
+window.addEventListener("scroll", function () {
+  var scrollPosition = window.scrollY || document.documentElement.scrollTop;
+
+  var tag = document.getElementById("tag-black-friday");
+
+  if (scrollPosition > 150) {
+    tag.classList.add("tag-black-friday--top");
+  } else {
+    tag.classList.remove("tag-black-friday--top");
+  }
+});
