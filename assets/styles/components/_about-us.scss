@@ -1,0 +1,54 @@
+.wkode-about-us {
+  position: relative;
+  &__wrapper {
+    position: relative;
+    z-index: 999;
+  }
+  &__logo {
+  }
+  &__text {
+    line-height: 3rem;
+    &--list-wrapper {
+      ul {
+        margin-top: 3rem;
+        padding-left: 1rem;
+        li {
+          @apply grid grid-cols-12;
+          p {
+            @apply col-span-11;
+          }
+          img {
+            margin-right: 1.5rem;
+            width: 3.7rem;
+            @apply col-span-1;
+          }
+          &:not(:last-of-type) {
+            /* margin-bottom: 2rem; */
+          }
+        }
+      }
+    }
+  }
+  &__bg-image {
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.2;
+    position: absolute;
+    top: -10rem;
+    width: 100%;
+    z-index: 997;
+  }
+  &__main-image {
+    align-items: center;
+    display: flex;
+    height: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .wkode-about-us {
+    &__bg-image {
+      height: 100%;
+    }
+  }
+}

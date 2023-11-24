@@ -1,0 +1,60 @@
+.wkode-btn {
+  position: relative;
+  transition: all 0.3s;
+  @apply overflow-hidden text-2xl font-bold px-32 py-4 border-4 rounded-full uppercase;
+
+  &--solid {
+    &-main-red {
+      &--new {
+        border-radius: 15px;
+        margin-bottom: 2.1rem;
+        margin-top: 1rem;
+        width: 73%;
+      }
+      color: white;
+      font-size: 1.4rem;
+      font-weight: bold;
+      letter-spacing: 0.3rem;
+      margin: auto;
+      margin-bottom: 0.9rem;
+      padding-bottom: 1.5rem;
+      padding-left: 2.25rem;
+      padding-right: 2.25rem;
+      padding-top: 1.5rem;
+      position: relative;
+      text-transform: uppercase;
+      transition: all 0.5s;
+      width: 50%;
+      &::after {
+        background-color: inherit;
+        border-radius: inherit;
+        content: "";
+        display: inline-block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all 0.4s;
+        width: 100%;
+        z-index: -1;
+      }
+      &:hover {
+        box-shadow: 0px 47px 46px 10px rgb(0 0 0 / 71%);
+        transform: translateY(-4px);
+        &::after {
+          opacity: 0;
+          transform: scaleX(1.4) scaleY(1.6);
+        }
+      }
+      @apply flex items-center justify-center bg-oli-primary-orange rounded-full text-center;
+    }
+  }
+}
+/* 
+wkode-btn wkode-btn--outline-blue
+wkode-btn wkode-btn--outline-red
+wkode-btn wkode-btn--solid-blue
+wkode-btn wkode-btn--solid-red
+wkode-btn wkode-btn--solid-white-blue
+wkode-btn wkode-btn--solid-white-red
+*/
