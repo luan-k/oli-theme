@@ -88,9 +88,7 @@
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">BASIC</h4>
             <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--old text-7xl font-black tracking-widest text-white">R$ 79,90</h3>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--new text-7xl font-black tracking-widest text-white">R$ 47,94</h3>
-            <img class="wkode-carousel__header-tag-black-friday" src="<?php echo get_theme_file_uri('/assets/img/tag-black-friday.png')?>" alt="tag black friday">
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 79,90</h3>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -134,9 +132,7 @@
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PREMIUM</h4>
             <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--old text-7xl font-black tracking-widest text-white">R$ 174,90</h3>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--new text-7xl font-black tracking-widest text-white">R$ 104,94</h3>
-            <img class="wkode-carousel__header-tag-black-friday" src="<?php echo get_theme_file_uri('/assets/img/tag-black-friday.png')?>" alt="tag black friday">
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 174,90</h3>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -180,9 +176,7 @@
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PREMIUM PLUS</h4>
             <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--old text-7xl font-black tracking-widest text-white">R$ 299,90</h3>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--new text-7xl font-black tracking-widest text-white">R$ 179,94</h3>
-            <img class="wkode-carousel__header-tag-black-friday" src="<?php echo get_theme_file_uri('/assets/img/tag-black-friday.png')?>" alt="tag black friday">
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 299,90</h3>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -225,9 +219,7 @@
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PERSONAL</h4>
             <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--old text-7xl font-black tracking-widest text-white">R$ 129,90</h3>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--new text-7xl font-black tracking-widest text-white">R$ 77,94</h3>
-            <img class="wkode-carousel__header-tag-black-friday" src="<?php echo get_theme_file_uri('/assets/img/tag-black-friday.png')?>" alt="tag black friday">
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 129,90</h3>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -272,9 +264,7 @@
         <div class="wkode-carousel__header w-full text-center pt-16">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PERSONAL PLUS</h4>
             <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--old text-7xl font-black tracking-widest text-white">R$ 219,90</h3>
-            <h3 class="wkode-carousel__header-price wkode-carousel__header-price--new text-7xl font-black tracking-widest text-white">R$ 131,94</h3>
-            <img class="wkode-carousel__header-tag-black-friday" src="<?php echo get_theme_file_uri('/assets/img/tag-black-friday.png')?>" alt="tag black friday">
+            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 219,90</h3>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -643,18 +633,6 @@
         </div>
     </div>
      <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
-</div>
-<div class="wkode-single-used-bikes-template__form black-friday-modal modal" id="blackFridayOpen">
-    <h2 class="wkode-single-used-bikes-template__form-title">
-        Black Friday na Oli!
-        <span class="close">
-            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
-        </span>
-    </h2>
-    <a href="#planos" class="w-full h-auto link-close">
-        <img class="w-full h-auto hidden md:block" src="<?php echo get_theme_file_uri('/assets/img/black-friday-popup.jpg'); ?>" >
-        <img class="w-full h-auto md:hidden" src="<?php echo get_theme_file_uri('/assets/img/black-friday-popup-mob.jpg'); ?>" >
-    </a>
 </div>
 
 <?php get_footer(); ?>

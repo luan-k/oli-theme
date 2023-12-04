@@ -30,7 +30,7 @@
   }
 
   &__header {
-    height: 33%;
+    height: 27%;
     position: relative;
     &-title {
       position: relative;
@@ -39,13 +39,6 @@
     &-price {
       position: relative;
       z-index: 998;
-      &--old {
-        color: #ffffff91;
-        font-size: 2rem;
-        font-weight: 600;
-        margin-bottom: 1.25rem;
-        text-decoration: line-through;
-      }
     }
     &-bg-image {
       display: block;
