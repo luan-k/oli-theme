@@ -644,17 +644,5 @@
     </div>
      <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </div>
-<div class="wkode-single-used-bikes-template__form black-friday-modal modal" id="blackFridayOpen">
-    <h2 class="wkode-single-used-bikes-template__form-title">
-        Black Friday na Oli!
-        <span class="close">
-            <img class="wkode-single-used-bikes__img" src="<?php echo get_theme_file_uri('/assets/img/white-x-thick.svg'); ?>" alt="" srcset="">
-        </span>
-    </h2>
-    <a href="#planos" class="w-full h-auto link-close">
-        <img class="w-full h-auto hidden md:block" src="<?php echo get_theme_file_uri('/assets/img/black-friday-popup.jpg'); ?>" >
-        <img class="w-full h-auto md:hidden" src="<?php echo get_theme_file_uri('/assets/img/black-friday-popup-mob.jpg'); ?>" >
-    </a>
-</div>
 
 <?php get_footer(); ?>
