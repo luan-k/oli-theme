@@ -48,4 +48,3 @@
       </div>
       
     </header>
-    <img data-entrance="from-right" id="tag-black-friday" class="tag-black-friday" src="<?php echo get_theme_file_uri('/assets/img/tag-black-friday.png')?>" alt="tag black friday">
