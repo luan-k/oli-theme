@@ -85,10 +85,9 @@
   <button class="wkode-carousel__arrow wkode-carousel__arrow_next">&#8250;</button>
   <ul data-entrance="from-bottom" class="wkode-carousel__list">
     <li class="wkode-carousel__item" data-pos="-2">
-        <div class="wkode-carousel__header w-full text-center pt-16">
+        <div class="wkode-carousel__header w-full text-center pt-20">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">BASIC</h4>
-            <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 79,90</h3>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -129,10 +128,9 @@
         </div>
     </li>
     <li class="wkode-carousel__item" data-pos="-1">
-        <div class="wkode-carousel__header w-full text-center pt-16">
+        <div class="wkode-carousel__header w-full text-center pt-20">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PREMIUM</h4>
-            <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 174,90</h3>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -173,10 +171,9 @@
         </div>
     </li>
     <li class="wkode-carousel__item" data-pos="0">
-        <div class="wkode-carousel__header w-full text-center pt-16">
+        <div class="wkode-carousel__header w-full text-center pt-20">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PREMIUM PLUS</h4>
-            <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 299,90</h3>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -216,10 +213,9 @@
         </div>
     </li>
     <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="1">
-        <div class="wkode-carousel__header w-full text-center pt-16">
+        <div class="wkode-carousel__header w-full text-center pt-20">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PERSONAL</h4>
-            <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 129,90</h3>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
@@ -232,7 +228,7 @@
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a todas as montadoras e modelos de veículos
+                       Acesso a 3 montadoras de escolha do usuário
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
@@ -261,10 +257,9 @@
         </div>
     </li>
     <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="2">
-        <div class="wkode-carousel__header w-full text-center pt-16">
+        <div class="wkode-carousel__header w-full text-center pt-20">
             <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PERSONAL PLUS</h4>
-            <h5 class="wkode-carousel__header-title text-3xl mb-5 font-normal">A PARTIR DE:</h4>
-            <h3 class="wkode-carousel__header-price text-7xl font-black tracking-widest text-white">R$ 219,90</h3>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
