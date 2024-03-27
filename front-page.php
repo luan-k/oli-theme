@@ -228,7 +228,7 @@
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                       Acesso a 3 montadoras de escolha do usuário
+                       Acesso a 3 montadoras de escolha do usuário
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
@@ -272,7 +272,7 @@
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a todas as montadoras e modelos de veículos
+                       Acesso a 3 montadoras de escolha do usuário
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
