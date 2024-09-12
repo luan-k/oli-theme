@@ -24,8 +24,8 @@
         <div class="wkode-hero-section__oli col-span-1 flex items-center">
             <img class="w-60 md:w-full m-auto mb-24 md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
         </div>
-        <div class="wkode-hero-section__image col-span-3" data-entrance="from-right">
-            <img class="" src="<?php echo get_theme_file_uri('/assets/img/hero-phone.png'); ?>" alt="" >
+        <div class="wkode-hero-section__image col-span-3 p-12" data-entrance="from-right">
+            <img class="" src="<?php echo get_theme_file_uri('/assets/img/cell.png'); ?>" alt="" >
         </div>
     </div>
     <!-- <img class="wkode-hero-section__bg-image" src="<?php echo get_theme_file_uri('/assets/img/hero-bg.png'); ?>" >
@@ -84,40 +84,37 @@
   <button class="wkode-carousel__arrow wkode-carousel__arrow_prev">&#8249;</button>
   <button class="wkode-carousel__arrow wkode-carousel__arrow_next">&#8250;</button>
   <ul data-entrance="from-bottom" class="wkode-carousel__list">
-    <li class="wkode-carousel__item" data-pos="-2">
+    <li class="wkode-carousel__item" data-pos="-1">
         <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">BASIC</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
+            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Premium</h4>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <p class="wkode-carousel__description text-3xl">
-                Plano inicial para empresas que querem iniciar
-                a jornada de serviços em transmissões automáticas.
-            </p>
+          
             <ul class="wkode-carousel__list-wrapper text-4xl px-9">
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a todas as montadoras e modelos de veículos
+                        Acesso aos Procedimentos de Transmissão Automática
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a procedimentos de forma manual
+                        Acesso a pesquisa de aplicação de Óleo Motor
                     </div>
                 </li>
-                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">                
-                        Acesso a procedimentos com máquina
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                        Suporte ilimitado
+                    </div>
+                </li>
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                        Descontos e condições para Cursos com a Velope
                     </div>
                 </li>
             </ul>
@@ -127,40 +124,48 @@
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
-    <li class="wkode-carousel__item" data-pos="-1">
+    <li class="wkode-carousel__item" data-pos="0">
         <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PREMIUM</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
+            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Premium PLUS</h4>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <p class="wkode-carousel__description text-3xl">
-                Plano completo com todas as funcionalidades
-                que a plataforma tem a oferecer, exceto assistências.
-            </p>
             <ul class="wkode-carousel__list-wrapper text-4xl px-9">
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a todas as montadoras e modelos de veículos
+                        Acesso aos Procedimentos de Transmissão Automática
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a procedimentos de forma manual
+                        Acesso a Procedimentos de Sistemas Anexos (Haldex, 4x4, diferenciais)
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">                
-                        Acesso a procedimentos com máquina
+                    <div class="wkode-carousel__list-item-text">
+                        Acesso a pesquisa de aplicação de Óleo Motor
                     </div>
                 </li>
-                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
+                <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                        Suporte ilimitado
+                    </div>
+                </li>
+                 <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                       Descontos e condições para Cursos com a Velope
+                    </div>
+                </li>
+                 <li class="wkode-carousel__list-item">
+                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                    <div class="wkode-carousel__list-item-text">
+                      Acesso a material técnico exclusivo mensalmente
                     </div>
                 </li>
             </ul>
@@ -170,133 +175,75 @@
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
         </div>
     </li>
-    <li class="wkode-carousel__item" data-pos="0">
+    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="1">
         <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PREMIUM PLUS</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
+            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Basic</h4>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
+            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <p class="wkode-carousel__description text-3xl">
-                Plano completo com todas as funcionalidades que a plataforma tem a oferecer.
-            </p>
             <ul class="wkode-carousel__list-wrapper text-4xl px-9">
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a todas as montadoras e modelos de veículos
+                       Acesso aos Procedimentos Manuais de Transmissão Automática
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a procedimentos de forma manual
+                        Acesso a pesquisa de aplicação de Óleo Moto
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">                
-                        Acesso a procedimentos com máquina
+                        Suporte ilimitado
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
+                      <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                       Descontos e condições para Cursos com a Velope
                     </div>
                 </li>
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
             <a href="" id="openModalBtnCard3" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
+            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
         </div>
     </li>
-    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="1">
+    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="2">
         <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PERSONAL</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
+            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Consulta</h4>
+            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
             <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
         </div>
         <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <p class="wkode-carousel__description text-3xl">
-                Plano com todas as funcionalidades que a plataforma
-                tem a oferecer, limitado por montadoras, focado nos
-                especialistas em marcas, sem assistência.
-            </p>
             <ul class="wkode-carousel__list-wrapper text-4xl px-9">
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                       Acesso a 3 montadoras de escolha do usuário
+                       Acesso aos dados de aplicação de produtos para Transmissão Automática
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">
-                        Acesso a procedimentos de forma manual
+                       Acesso a pesquisa de aplicação de Óleo Moto
                     </div>
                 </li>
                 <li class="wkode-carousel__list-item">
                     <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
                     <div class="wkode-carousel__list-item-text">                
-                        Acesso a procedimentos com máquina
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item wkode-carousel__list-item--unchecked">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/uncheckmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
+                        Sem suporte técnico
                     </div>
                 </li>
             </ul>
         </div>
         <div class="wkode-carousel__footer w-full pb-16">
             <a href="" id="openModalBtnCard4" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
-        </div>
-    </li>
-    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="2">
-        <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">PERSONAL PLUS</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h4>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
-        </div>
-        <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <p class="wkode-carousel__description text-3xl">
-                Plano com todas as funcionalidades que a plataforma
-                tem a oferecer, limitado por montadoras, focado nos
-                especialistas em marcas.
-            </p>
-            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                       Acesso a 3 montadoras de escolha do usuário
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a procedimentos de forma manual
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">                
-                        Acesso a procedimentos com máquina
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item ">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a 05 Assistências Online mensais para dúvidas técnicas
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" id="openModalBtnCard5" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
             <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
         </div>
     </li>
