@@ -1,51 +1,63 @@
 <?php get_header();?>
 
-<section class="wkode-hero-section text-black pt-80 md:pt-40 font-montserrat pb-24" id="hero">
+<section class="wkode-hero-section relative text-black pt-80 md:pt-40 font-montserrat pb-12 md:pb-0" id="hero">
     <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-7 h-full container">
-        <div class="wkode-hero-section__call-to-action p-0 md:pr-9 mb-36 md:mb-0 col-span-3">
+        <div class="wkode-hero-section__call-to-action p-6 md:p-0 md:pr-9 mb-36 md:mb-0 col-span-3">
+            <img class="h-28 w-fit mb-5 md:block hidden" src="<?php echo get_theme_file_uri('/assets/img/oli-colored.svg'); ?>" alt="Ori" >
             <h1 class="wkode-hero-section__main-title">
-                <span data-entrance="from-left" class=" text-5xl mb-7 font-bold  block">
-                    Descomplique a <span class="text-oli-primary-orange">Manutenção Preventiva</span> em <span class="text-oli-primary-orange">Transmissões Automáticas</span> e Sistemas 4X4.
+                <span data-entrance="from-left" class=" text-6xl mb-7 font-bold  block">
+                    A melhor <span class="text-oli-primary-orange">ferramenta</span> de suporte para <span class="text-oli-primary-orange">manutenções preventivas</span> veiculares.
                 </span>
             </h1>
-            <h2 class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
-                OliApp tem <span class="text-5xl font-bold text-oli-primary-orange">2.193</span>  procedimentos detalhados em texto e vídeo, para aumentar sua oferta de serviços e faturamento. 
+            <h2 class="text-3xl mb-2 wkode-hero-section__description" data-entrance="from-left">
+                Tenha em mãos todas as informações
+                necessárias para a manutenção preventiva
+                de <span class="text-oli-primary-orange font-bold">motor, arrefecimento, transmissões automáticas, sistemas anexos</span> e muito mais.
             </h2>
-            <a href="#planos" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red wkode-btn--solid-main-red--new text-4xl">Escolha Seu plano</a>
-            <div class="wkode-hero-section__links grid grid-cols-2" data-entrance="from-left">
-                <a href="https://apps.apple.com/br/app/oli/id6451156427" target="_blank">
-                    <img class="w-56 md:w-72 m-auto mr-7" src="<?php echo get_theme_file_uri('/assets/img/download-apple.svg'); ?>" alt="" >
+            <p class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
+                Mais de <span class="text-oli-primary-orange font-bold">3.000</span> procedimentos detalhados em
+                texto e vídeo para otimizar seu serviço e
+                aumentar o faturamento.
+            </p>
+            <div class="flex flex-col items-center justify-center mb-4">
+                <p class="text-sm">
+                Clique e descubra o melhor plano para o seu negócio.
+                </p>
+                <a href="#planos" class="main-cta text-3xl md:text-5xl">Escolha Seu plano</a>
+            </div>
+            <div class="flex gap-2 items-center justify-center" data-entrance="from-left">
+                <a class="w-fit h-fit" href="https://apps.apple.com/br/app/oli/id6451156427" target="_blank">
+                    <img class="w-44 md:w-56" src="<?php echo get_theme_file_uri('/assets/img/download-apple.png'); ?>" alt="" >
                 </a>
-                <a href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
-                    <img class="w-56 md:w-72 m-auto ml-7" src="<?php echo get_theme_file_uri('/assets/img/download-google.svg'); ?>" alt="" >
+                <a class="w-fit h-fit" href="https://play.google.com/store/apps/details?id=com.gebit.oliapp&hl=pt_BR&gl=US&pli=1" target="_blank">
+                    <img class="w-44 md:w-56" src="<?php echo get_theme_file_uri('/assets/img/download-google.png'); ?>" alt="" >
                 </a>
             </div>
         </div>
-        <div class="wkode-hero-section__oli col-span-1 flex items-center">
-            <img class="w-60 md:w-full m-auto mb-24 md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/oli.svg'); ?>" alt="" >
-        </div>
-        <div class="wkode-hero-section__image col-span-3 p-12" data-entrance="from-right">
-            <img class="" src="<?php echo get_theme_file_uri('/assets/img/cell.png'); ?>" alt="" >
-        </div>
+    </div>
+
+    <div class="wkode-hero-section__image" data-entrance="from-right">
+        <img class="hero-image" src="<?php echo get_theme_file_uri('/assets/img/phone.png'); ?>" alt="" >
     </div>
     <!-- <img class="wkode-hero-section__bg-image" src="<?php echo get_theme_file_uri('/assets/img/hero-bg.png'); ?>" >
     <img class="wkode-hero-section__bg-image-mob" src="<?php echo get_theme_file_uri('/assets/img/hero-bg-mobile.png'); ?>" > -->
-    <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </section>
 
+<section class="wkode-section-divider">
+    <img class="h-auto w-full" src="<?php echo get_theme_file_uri('/assets/img/section-divider.svg'); ?>" alt="">
+</section>
 
-
-<section class="wkode-numbers py-24" id="my-counter" >
-    <div class="wkode-numbers__wrapper text-white grid grid-cols-1 md:grid-cols-3 container gap-9">
+<section class="wkode-numbers py-32" id="my-counter" >
+    <div class="wkode-numbers__wrapper grid grid-cols-1 md:grid-cols-3 container gap-9">
         <div class="wkode-numbers__card mb-20 md:mb-0">
             <div class="wkode-numbers__icon mb-7">
                 <img data-entrance="from-top-left" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-youtube.png'); ?>" >
             </div>
             <div class="wkode-numbers__number text-center mb-7">
-                <h2 data-entrance="from-left" class="timer text-7xl font-black" data-to="2193" data-speed="3000"></h2>
+                <h2 data-entrance="from-left" class="timer text-7xl font-black" data-to="3000" data-speed="3000"></h2>
             </div>
             <div class="wkode-numbers__text">
-                <h3 data-entrance="from-bottom-left" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
+                <h3 data-entrance="from-bottom-left" class="wkode-numbers__text--header text-4xl font-bold text-center">
                     Procedimentos em videos
                 </h3>
             </div>
@@ -55,10 +67,10 @@
                 <img data-entrance="from-top" class="wkode-numbers__icon-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-car.png'); ?>" >
             </div>
             <div class="wkode-numbers__number text-center mb-7">
-                <h2 data-entrance="fade" class="timer text-7xl font-black" data-to="1200" data-speed="3000"></h2>
+                <h2 data-entrance="fade" class="timer text-7xl font-black" data-to="6300" data-speed="3000"></h2>
             </div>
             <div class="wkode-numbers__text">
-                <h3 data-entrance="from-bottom" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
+                <h3 data-entrance="from-bottom" class="wkode-numbers__text--header text-4xl font-bold text-center">
                     Modelos de veículos
                 </h3>
             </div>
@@ -71,287 +83,305 @@
                 <h2 data-entrance="from-right" class="timer text-7xl font-black" data-to="1109" data-speed="3000"></h2>
             </div>
             <div class="wkode-numbers__text">
-                <h3 data-entrance="from-bottom-right" class="wkode-numbers__text--header text-5xl font-bold text-center tracking-wider">
+                <h3 data-entrance="from-bottom-right" class="wkode-numbers__text--header text-4xl font-bold text-center">
                     Manuais técnicos
                 </h3>
             </div>
         </div>
     </div>
-    <img class="wkode-numbers__bg-image" src="<?php echo get_theme_file_uri('/assets/img/numbers-bg.png'); ?>" >
 </section>
 
-<section class="wkode-carousel font-montserrat" id="planos" style="background-image: url(<?php echo get_theme_file_uri('/assets/img/cards-bg-60.png'); ?>)">
-  <button class="wkode-carousel__arrow wkode-carousel__arrow_prev">&#8249;</button>
-  <button class="wkode-carousel__arrow wkode-carousel__arrow_next">&#8250;</button>
-  <ul data-entrance="from-bottom" class="wkode-carousel__list">
-    <li class="wkode-carousel__item" data-pos="-1">
-        <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Premium</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
-        </div>
-        <div class="wkode-carousel__body text-black text-center px-6 py-9">
-          
-            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso aos Procedimentos de Transmissão Automática
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a pesquisa de aplicação de Óleo Motor
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Suporte ilimitado
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Descontos e condições para Cursos com a Velope
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" id="openModalBtnCard1" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
-        </div>
-    </li>
-    <li class="wkode-carousel__item" data-pos="0">
-        <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Premium PLUS</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header.png'); ?>" >
-        </div>
-        <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso aos Procedimentos de Transmissão Automática
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a Procedimentos de Sistemas Anexos (Haldex, 4x4, diferenciais)
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a pesquisa de aplicação de Óleo Motor
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Suporte ilimitado
-                    </div>
-                </li>
-                 <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                       Descontos e condições para Cursos com a Velope
-                    </div>
-                </li>
-                 <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                      Acesso a material técnico exclusivo mensalmente
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" id="openModalBtnCard2" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer.png'); ?>" >
-        </div>
-    </li>
-    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="1">
-        <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Basic</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
-        </div>
-        <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                       Acesso aos Procedimentos Manuais de Transmissão Automática
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                        Acesso a pesquisa de aplicação de Óleo Moto
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">                
-                        Suporte ilimitado
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                      <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                       Descontos e condições para Cursos com a Velope
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" id="openModalBtnCard3" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
-        </div>
-    </li>
-    <li class="wkode-carousel__item wkode-carousel__item--personal" data-pos="2">
-        <div class="wkode-carousel__header w-full text-center pt-20">
-            <h4 class="wkode-carousel__header-title text-5xl mb-5 font-medium">Consulta</h4>
-            <h5 class="wkode-carousel__header-title text-3xl font-normal px-20">Consulte nossos preços com o departamento comercial.</h5>
-            <img class="wkode-carousel__header-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-header-red.png'); ?>" >
-        </div>
-        <div class="wkode-carousel__body text-black text-center px-6 py-9">
-            <ul class="wkode-carousel__list-wrapper text-4xl px-9">
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                       Acesso aos dados de aplicação de produtos para Transmissão Automática
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">
-                       Acesso a pesquisa de aplicação de Óleo Moto
-                    </div>
-                </li>
-                <li class="wkode-carousel__list-item">
-                    <img class="wkode-carousel__list-item-image" src="<?php echo get_theme_file_uri('/assets/img/checkmark.svg'); ?>" >
-                    <div class="wkode-carousel__list-item-text">                
-                        Sem suporte técnico
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="wkode-carousel__footer w-full pb-16">
-            <a href="" id="openModalBtnCard4" class="wkode-carousel__footer-main-btn wkode-btn--solid-main-red text-4xl">Assine já</a>
-            <img class="wkode-carousel__footer-bg-image" src="<?php echo get_theme_file_uri('/assets/img/card-footer-red.png'); ?>" >
-        </div>
-    </li>
-  </ul>
-</section>
-
-
-<section class="wkode-about-us py-24 font-montserrat" id="sobre">
-    <div class="wkode-about-us__wrapper container">
-       
-        <div class="wkode-about-us__wrapper grid grid-cols-1  mt-28">
-            
-            <div data-entrance="from-left" class="wkode-about-us__text font-medium text-oli-primary-blue text-3xl px-12 mt-16 pb-12">
-
-                <div class="wkode-about-us__text--list-wrapper">
-                    <h3 class="font-bold text-5xl text-center mb-36">
-                        Solicite uma apresentação da OLI
-                    </h3>
-                    <h3 class="font-bold text-5xl text-center mb-36">
-                        Dentre as inúmeras funcionalidades da plataforma, a OLI oferece:
-                    </h3>
-                    <ul>
-                        <li class="py-7 px-6 bg-list">
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Indicação do fluído e sua respectiva norma de aplicação;</p>
-                        </li>
-                        <li class="py-7 px-6">
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Indicação de aditivos de limpeza, conversão, proteção e outras finalidades;</p>
-                        </li>
-                        <li class="py-7 px-6 bg-list">
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Indicação do filtro interno, externo e/ou Carter;</p>
-                        </li>
-                        <li class="py-7 px-6">
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Km ideal para realização de manutenção;</p>
-                        </li>
-                        <li class="py-7 px-6 bg-list">
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Tempo de serviço necessário para realização do procedimento;</p>
-                        </li>
-                        <li class="py-7 px-6">
-                            <img class="" src="<?php echo get_theme_file_uri('/assets/img/mini-logo.png')?>" >
-                            <p>Todas as informações acima de forma quantitativas e qualitativas, com passo
-                            a passo em vídeo e quadro descritivo em texto, seja para realização do procedimento de forma manual ou com máquina.</p>
-                        </li>
-                    </ul>
-                </div>
+<section class="wkode-planos flex flex-col gap-12 items-center justify-center py-32" id="planos">
+    <h2 class="text-6xl mt-32 mb-40 font-bold">PLANOS E ACESSOS</h2>
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Transmissão Automática com Máquina</h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso às aplicações de transmissão Automática com <b>Máquina</b>, com vídeos tutoriais</p>
             </div>
-            <!-- <div class="wkode-about-us__image wkode-about-us__main-image">
-                <img data-entrance="from-right" class="m-auto px-20 w-full" src="<?php echo get_theme_file_uri('/assets/img/about-us-side-2.png'); ?>" alt="" >
-            </div> -->
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Suporte ilimitado</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Descontos e condições para cursos com parceiros OLI</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
         </div>
     </div>
-    <img class="wkode-about-us__bg-image" src="<?php echo get_theme_file_uri('/assets/img/about-us-bg.png'); ?>" >
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Transmissão Automática Manual</h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso às aplicações de transmissão Automática com <b>Máquina</b>, com vídeos tutoriais</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Suporte ilimitado</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Descontos e condições para cursos com parceiros OLI</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+        </div>
+    </div>
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Sistemas Anexos</h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso às aplicações de Sistemas Anexos (Haldex, 4x4, Diferenciais), com vídeos tutoriais</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Suporte ilimitado</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Descontos e condições para cursos com parceiros OLI</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+        </div>
+    </div>
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Motor e complementos 
+        <span class="text-oli-primary-orange">(Módulo Novo)</span>
+        </h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso às aplicações de motor, filtros, fluidos de freio, arrefecimento, direção hidráulica e diferenciais.</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Descontos e condições para cursos com parceiros OLI</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-7 mx-8" src="<?php echo get_theme_file_uri('/assets/img/dont.png'); ?>" alt="X">
+                <p><b>Sem vídeos tutoriais</b></p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-7 mx-8" src="<?php echo get_theme_file_uri('/assets/img/dont.png'); ?>" alt="X">
+                <p><b>Sem suporte técnico</b></p>
+            </div>
+        </div>
+    </div>
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Consultas</h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a todas às aplicações do App (Transmissão, Sistemas Anexos, Motor), sem vídeos tutoriais</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Descontos e condições para cursos com parceiros OLI</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-7 mx-8" src="<?php echo get_theme_file_uri('/assets/img/dont.png'); ?>" alt="X">
+                <p><b>Sem vídeos tutoriais</b></p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-7 mx-8" src="<?php echo get_theme_file_uri('/assets/img/dont.png'); ?>" alt="X">
+                <p><b>Sem suporte técnico</b></p>
+            </div>
+        </div>
+    </div>
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Ofinina Premium</h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a todas às aplicações do App (Transmissão, Sistemas Anexos, Motor), com vídeos tutoriais</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Suporte ilimitado</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Descontos e condições para cursos com parceiros OLI</p>
+            </div>
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
+                <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+        </div>
+    </div>
+    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Procedimento Avulso</h4>
+        <div class="wkode-planos__item_content w-full py-8 px-4">
+            <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
+                <p>
+                    Contratação avulsa de procedimento,
+                    na qual se escolhe um modelo de veiculo, que terá todas as informações
+                    (transmissão, sistema anexo, motor) com <b>vídeo tutorial disponível por 15 dias.</b>
+                </p>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="wkode-icons py-40">
-    <h2 class="wkode-icon-title">Conheça as funcionalidades do OliApp</h2>
+<section class="wkode-technical container py-40 flex flex-col items-center justify-center gap-12">
+    <div class="title-wrapper w-11/12">
+        <h2 class="w-full text-oli-primary-orange text-5xl md:text-6xl font-bold mb-6">Tenha Acesso a Informações Técnicas
+        Essenciais para o Sucesso do Seu Negócio!</h2>
+        <h3 class="w-full text-4xl md:text-5xl mb-24">Para oferecer o suporte que seu negócio precisa e merece, a OLI
+        disponibiliza diversas informações técnicas, acessíveis conforme o plano escolhido.</h3>
+    </div>
+    <div class="modules-wrapper flex flex-col items-center justify-center gap-12 mb-24 w-11/12">
+        <h4 class="text-5xl md:text-center md:text-3xl font-bold px-12 md:px-0">
+            <span class="text-oli-primary-orange">Módulos: </span>
+            Transmissões Automáticas e sistemas anexos
+        </h4>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Procedimentos em vídeo com o passo a passo para a manutenção preventiva de transmissões automáticas e sistemas anexos, com ou sem o uso de máquina.
+            </div>
+        </div>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Indicação de fluidos, filtros (interno, externo e/ou Carter) e aditivos de limpeza.
+            </div>
+        </div>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Dicas técnicas sobre transmissões e sistemas anexos, contendo dados como histórico de problemas crônicos, cuidados indispensáveis, códigos de erro e outras informações.
+            </div>
+        </div>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Suporte técnico especializado em tempo real, sem IA ou bots, com profissionais capacitados para atender sua demanda e encontrar a melhor solução para a manutenção preventiva dos seus clientes.
+            </div>
+        </div>
+    </div>
+    <div class="modules-wrapper flex flex-col items-center justify-center gap-12 w-11/12">
+        <h4 class="text-5xl md:text-center md:text-3xl font-bold px-12 md:px-0">
+            <span class="text-oli-primary-orange">Módulos: </span>
+            Central de Motores e Sistemas Correlatos
+        </h4>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Aqui, reunimos todas as informações sobre manutenção preventiva do motor e sistemas correlatos para agilizar a emissão de orçamentos, a compra de produtos e o estudo técnico.
+            </div>
+        </div>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Informações sobre fluidos de motor, com viscosidade, quantidade por modelo, marcas que podem ser utilizadas etc.
+            </div>
+        </div>
+        <div class="oli-module px-8 py-8 flex items-center gap-12 rounded-full text-3xl">
+            <img class="w-16 h-auto" src="<?php echo get_theme_file_uri('/assets/img/oli-white.svg'); ?>" alt="Oli">
+            <div class="oli-module__text font-bold">
+            Informações sobre filtros de ar, cabine, fluido de freio, arrefecimento e diferenciais.
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<section class="wkode-icons py-40 px-20">
+    <h2 class="wkode-icon-title text-oli-primary-orange">Conheça as funcionalidades do OliApp</h2>
     <div class="container grid grid-cols-1 md:grid-cols-4 gap-12 ">
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/procedimentos.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/procedimentos.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                procedimentos
+                Procedimentos
             </h3>
+            <p class="text-2xl text-center">
+                Passo a passo detalhado para cada manutenção
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/tutoriais.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/tutoriais.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                tutoriais
+                Tutoriais
             </h3>
+            <p class="text-2xl text-center">
+                Vídeos e instruções
+                visuais com descritivo
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/tecnologia.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/tecnologia.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                tecnologia
+                Tecnologia
             </h3>
+            <p class="text-2xl text-center">
+                Ferramenta inteligente que aceleram diagnósticos, otimizando o desempenho da oficina.
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/inovacao.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/inovacao.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                inovação
+                Inovação
             </h3>
+            <p class="text-2xl text-center">
+                Metodologias modernas para transformar processos
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/atualizacoes.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/atualizacoes.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                atualizações
+                Atualizações
             </h3>
+            <p class="text-2xl text-center">
+                Receba melhorias constantes
+                e novas
+                funcionalidades
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/resultados.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/resultados.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
                 Resultados
             </h3>
+            <p class="text-2xl text-center">
+                Aumento da eficiência e
+                redução de custos
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/suporte.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/suporte.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                suporte
+                Suporte
             </h3>
+            <p class="text-2xl text-center">
+                Atendimento especializado para tirar dúvidas e oferecer orientações em tempo real, sempre que necessário.
+            </p>
         </div>
         <div class="wkode-icon">
-            <img class="m-auto w-36" src="<?php echo get_theme_file_uri('/assets/img/eficiencia.svg'); ?>" >
+            <img src="<?php echo get_theme_file_uri('/assets/img/eficiencia.svg'); ?>" >
             <h3 class="wkode-icon-text text-center">
-                eficiência
+                Eficiência
             </h3>
+            <p class="text-2xl text-center">
+                Reduza retrabalhos e
+                maximize o tempo da sua equipe
+            </p>
         </div>
     </div>
 </section>

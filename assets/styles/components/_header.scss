@@ -20,6 +20,7 @@
   }
   &__ul {
     align-content: center;
+    align-items: center;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -59,6 +60,17 @@
     &:hover {
       opacity: 0.9;
     }
+  }
+  &__nav-button {
+    border-radius: 59.5px;
+    background: #F12900;
+    background: linear-gradient(90deg, #681707 0%, #F12900 100%);
+    box-shadow: 0px 1px 2px 0px #FFF;
+    color: #FFF;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+    transition: all 0.3s;
   }
 
   &__menu-container {
