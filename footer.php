@@ -4,7 +4,7 @@
                 <h4 class="wkode-footer__title text-4xl font-bold mb-9">
                   Sobre nós
                 </h4>
-                <p class="wkode-footer__p text-3xl font-semibold mb-9">
+                <p class="wkode-footer__p text-2xl text-gray-200 mb-9">
                   A Melhor Ferramente para
                   manutenções preventivas em
                   transmissões automáticas

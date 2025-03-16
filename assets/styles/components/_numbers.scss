@@ -22,10 +22,68 @@
   }
   &__text {
     &--header {
-      font-style: italic;
       font-weight: normal;
     }
   }
 }
-@media (max-width: 768px) {
+
+.wkode-planos {
+  background: #071927;
+  color: white;
+
+  .wkode-planos__item {
+    margin-bottom: 2rem;
+
+    &_title {
+      border-radius: 7px;
+      box-shadow: -5px 5px 0px -2px #FFF;
+    }
+    &_content {
+      border-radius: 7px;
+      background: #FFF;
+      color: black;
+      box-shadow: -5px 5px 0px -2px #B22611;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    &:nth-of-type(1) {
+      .wkode-planos__item_title {
+        background: linear-gradient(90deg, #661003 0%, #B22611 100%);
+      }
+    }
+    &:nth-of-type(2) {
+      .wkode-planos__item_title {
+        background: linear-gradient(90deg, #145021 0%, #0E6C09 100%);
+      }
+    }
+    &:nth-of-type(3) {
+      .wkode-planos__item_title {
+        background: linear-gradient(90deg, #071927 0%, #063999 100%); 
+      }
+    }
+    &:nth-of-type(4) {
+      .wkode-planos__item_title {
+        color: black;
+        background: linear-gradient(90deg, #898D8C 0%, #CACAC8 14%, #D1D2D4 33.5%, #D1D2D4 55.5%, #CACAC8 77.5%, #898D8C 100%);
+      }
+    }
+    &:nth-of-type(5) {
+      .wkode-planos__item_title {
+        background: linear-gradient(90deg, #071927 0%, #590699 100%);
+      }
+    }
+    &:nth-of-type(6) {
+      .wkode-planos__item_title {
+        color: black;
+        background: linear-gradient(90deg, #C17B2C 0%, #CF8F32 15.5%, #DDB153 32%, #FFE770 47%, #FFE770 57.5%, #DDB153 70.5%, #CF8F32 84.5%, #C17B2C 98%);
+      }
+    }
+    &:nth-of-type(7) {
+      .wkode-planos__item_title {
+        background: linear-gradient(90deg, #071927 7%, #FF844F 85.5%);
+      }
+    }
+  }
 }
