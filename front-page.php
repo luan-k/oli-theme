@@ -239,7 +239,7 @@
     </div>
 </section>
 
-<section class="wkode-technical container py-40 flex flex-col items-center justify-center gap-12">
+<section class="wkode-technical container py-40 flex flex-col items-center justify-center gap-12" id="sobre">
     <div class="title-wrapper w-11/12">
         <h2 class="w-full text-oli-primary-orange text-5xl md:text-6xl font-bold mb-6">Tenha Acesso a Informações Técnicas
         Essenciais para o Sucesso do Seu Negócio!</h2>
