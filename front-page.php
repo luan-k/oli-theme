@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-<section class="wkode-hero-section relative text-black pt-80 md:pt-40 font-montserrat pb-12 md:pb-0" id="hero">
+<section class="wkode-hero-section relative text-black pt-32 md:pt-80 md:pt-40 font-montserrat pb-12 md:pb-0" id="hero">
     <div class="wkode-hero-section__wrapper grid grid-cols-1 md:grid-cols-7 h-full container">
         <div class="wkode-hero-section__call-to-action p-6 md:p-0 md:pr-9 mb-36 md:mb-0 col-span-3">
             <img class="h-28 w-fit mb-5 md:block hidden" src="<?php echo get_theme_file_uri('/assets/img/oli-colored.svg'); ?>" alt="Ori" >

@@ -1,7 +1,7 @@
 import "../styles/main.scss";
 import "./base/scroll-entrance";
 import "./components/counter";
-import "./components/cards-slider";
+// import "./components/cards-slider";
 import "./components/testimonial";
 import "./components/single-modal-logic";
 /* import "./blocks/slider"; */

@@ -680,10 +680,6 @@ video {
 .p-6{
   padding: 1.5rem;
 }
-.px-10{
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
 .px-12{
   padding-left: 3rem;
   padding-right: 3rem;
@@ -790,6 +786,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
+.text-gray-200{
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
+}
 .text-oli-primary-orange{
   --tw-text-opacity: 1;
   color: rgb(178 38 17 / var(--tw-text-opacity, 1));
@@ -801,18 +801,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-.text-gray-400{
-  --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
-}
-.text-gray-800{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity, 1));
-}
-.text-gray-200{
-  --tw-text-opacity: 1;
-  color: rgb(229 231 235 / var(--tw-text-opacity, 1));
 }
 *,
 *::after,
@@ -1297,10 +1285,17 @@ body {
   background: #071927;
   color: white;
   width: 100%;
+  padding: 3rem 4rem;
 }
 .oli-module:nth-of-type(even) {
   background: #C6CACD;
   color: black;
+}
+@media (max-width: 500px) {
+  .oli-module {
+    font-size: 1.6rem;
+    border-radius: 80px;
+  }
 }
 
 .wkode-about-us {
@@ -2301,6 +2296,9 @@ body.modal-open::after {
   }
   .md\:pt-40{
     padding-top: 10rem;
+  }
+  .md\:pt-80{
+    padding-top: 20rem;
   }
   .md\:text-center{
     text-align: center;
