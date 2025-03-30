@@ -727,9 +727,6 @@ video {
 .pt-56{
   padding-top: 14rem;
 }
-.pt-80{
-  padding-top: 20rem;
-}
 .text-center{
   text-align: center;
 }
@@ -2003,12 +2000,12 @@ wkode-btn wkode-btn--solid-white-red
   background: #ededed;
 }
 .wkode-icons .wkode-icon {
+  align-items: center;
   background: #071927;
   border-radius: 1.6rem;
+  box-shadow: -6px 6px 0px -2px #06538f;
   color: white;
-  box-shadow: -6px 6px 0px -2px #06538F;
   display: flex;
-  align-items: center;
   flex-direction: column;
   padding: 2.7rem 1rem;
 }
@@ -2238,6 +2235,15 @@ body.modal-open::after {
   width: 100%;
   z-index: 999;
 }
+
+.wkode-whatsapp-icon {
+  bottom: 2.1rem;
+  position: fixed;
+  right: 2.1rem;
+  width: 6rem;
+  z-index: 9999;
+}
+
 @media (min-width: 768px){
   .md\:col-span-2{
     grid-column: span 2 / span 2;

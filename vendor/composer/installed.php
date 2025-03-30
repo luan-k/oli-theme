@@ -3,7 +3,7 @@
         'name' => 'wkode/1',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '932dc9734faf363f9775d0d3226becec1d4de183',
+        'reference' => '5f1cc4aa5562a7be1f284b826f3389cf35b56f8a',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'wkode/1' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '932dc9734faf363f9775d0d3226becec1d4de183',
+            'reference' => '5f1cc4aa5562a7be1f284b826f3389cf35b56f8a',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
