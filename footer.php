@@ -74,7 +74,7 @@
                     <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.facebook.com/oliappoficial" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-facebook.svg'); ?>" alt="" class="">
                     </a>
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.youtube.com/@OliVideos-cv1wm/featured" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://youtube.com/@oliapp?si=opkF-ZAxe3YKRNmv" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-youtube.svg'); ?>" alt="" class="">
                     </a>
                     <a target="_blank" class="wkode-footer__social-media-icon" href="https://wa.me/5541997120295" >

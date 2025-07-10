@@ -607,7 +607,7 @@
      <img class="wkode-circle-hero" src="<?php echo get_theme_file_uri('/assets/img/circle.png'); ?>" >
 </div>
 
-<a class="wkode-whatsapp-icon" href="https://linktr.ee/Oliappoficial" target="_blank">
+<a class="wkode-whatsapp-icon" href="https://linktr.ee/Oliappoficiall" target="_blank">
     <img class="wkode-whatsapp-icon-img" src="<?php echo get_theme_file_uri('/assets/img/whats.png'); ?>" >
 </a>
 
