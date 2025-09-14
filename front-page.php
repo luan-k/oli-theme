@@ -15,15 +15,15 @@
                 de <span class="text-oli-primary-orange font-bold">motor, arrefecimento, transmissões automáticas, sistemas anexos</span> e muito mais.
             </h2>
             <p class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
-                Mais de <span class="text-oli-primary-orange font-bold">3.000</span> procedimentos detalhados em
-                texto e vídeo para otimizar seu serviço e
-                aumentar o faturamento.
+                Mais de <span class="text-oli-primary-orange font-bold">3.000</span> procedimentos detalhados em texto e vídeo, suporte humano
+especializado. Ganhe tempo e aumente o lucro da sua oficina.
             </p>
-            <div class="flex flex-col items-center justify-center mb-4">
-                <p class="text-sm">
-                Clique e descubra o melhor plano para o seu negócio.
+            <div class="flex flex-col items-center justify-center mb-12 gap-12">
+                <p class="text-4xl">
+                <img class="inline w-12 mr-2" src="<?php echo get_theme_file_uri('/assets/img/whats2.png'); ?>" alt="" > 
+                Fale agora com nosso consultor no WhatsApp e saiba mais!
                 </p>
-                <a href="#planos" class="main-cta text-3xl md:text-5xl">Escolha Seu plano</a>
+                <a href="#planos" class="main-cta text-2xl md:text-4xl">QUERO AUMENTAR MEU FATURAMENTO</a>
             </div>
             <div class="flex gap-2 items-center justify-center" data-entrance="from-left">
                 <a class="w-fit h-fit" href="https://apps.apple.com/br/app/oli/id6451156427" target="_blank">
@@ -98,7 +98,7 @@
         <div class="wkode-planos__item_content w-full py-8 px-4">
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
-                <p>Acesso às aplicações de transmissão Automática com <b>Máquina</b>, com vídeos tutoriais</p>
+                <p>Acesso às aplicações de transmissão automática com <b>máquina</b>, com vídeos tutoriais</p>
             </div>
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
@@ -111,6 +111,9 @@
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
                 <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+            <div class="flex items-center justify-center">
+                <a href="https://linktr.ee/Oliappoficiall" target="_blank" class="main-cta text-3xl md:text-4xl inline w-auto">ASSINE JÁ</a>
             </div>
         </div>
     </div>
@@ -119,7 +122,7 @@
         <div class="wkode-planos__item_content w-full py-8 px-4">
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
-                <p>Acesso às aplicações de transmissão Automática com <b>Máquina</b>, com vídeos tutoriais</p>
+                <p>Acesso às aplicações de transmissão automática com <b>máquina</b>, com vídeos tutoriais</p>
             </div>
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
@@ -132,6 +135,9 @@
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
                 <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+            <div class="flex items-center justify-center">
+                <a href="https://linktr.ee/Oliappoficiall" target="_blank" class="main-cta text-3xl md:text-4xl inline w-auto">ASSINE JÁ</a>
             </div>
         </div>
     </div>
@@ -140,7 +146,7 @@
         <div class="wkode-planos__item_content w-full py-8 px-4">
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
-                <p>Acesso às aplicações de Sistemas Anexos (Haldex, 4x4, Diferenciais), com vídeos tutoriais</p>
+                <p>Acesso às aplicações de sistemas anexos (haldex, 4x4, diferenciais), com vídeos tutoriais</p>
             </div>
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
@@ -153,6 +159,9 @@
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
                 <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+            <div class="flex items-center justify-center">
+                <a href="https://linktr.ee/Oliappoficiall" target="_blank" class="main-cta text-3xl md:text-4xl inline w-auto">ASSINE JÁ</a>
             </div>
         </div>
     </div>
@@ -181,6 +190,9 @@
                 <img class="w-7 mx-8" src="<?php echo get_theme_file_uri('/assets/img/dont.png'); ?>" alt="X">
                 <p><b>Sem suporte técnico</b></p>
             </div>
+            <div class="flex items-center justify-center">
+                <a href="https://linktr.ee/Oliappoficiall" target="_blank" class="main-cta text-3xl md:text-4xl inline w-auto">ASSINE JÁ</a>
+            </div>
         </div>
     </div>
     <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
@@ -188,7 +200,7 @@
         <div class="wkode-planos__item_content w-full py-8 px-4">
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
-                <p>Acesso a todas às aplicações do App (Transmissão, Sistemas Anexos, Motor), sem vídeos tutoriais</p>
+                <p>Acesso a todas às aplicações do App (transmissão, sistemas anexos, motor), sem vídeos tutoriais</p>
             </div>
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
@@ -202,14 +214,17 @@
                 <img class="w-7 mx-8" src="<?php echo get_theme_file_uri('/assets/img/dont.png'); ?>" alt="X">
                 <p><b>Sem suporte técnico</b></p>
             </div>
+            <div class="flex items-center justify-center">
+                <a href="https://linktr.ee/Oliappoficiall" target="_blank" class="main-cta text-3xl md:text-4xl inline w-auto">ASSINE JÁ</a>
+            </div>
         </div>
     </div>
     <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
-        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Ofinina Premium</h4>
+        <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Central de Oficina Premium</h4>
         <div class="wkode-planos__item_content w-full py-8 px-4">
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
-                <p>Acesso a todas às aplicações do App (Transmissão, Sistemas Anexos, Motor), com vídeos tutoriais</p>
+                <p>Acesso a todas às aplicações do App (transmissão, sistemas anexos, motor), com vídeos tutoriais</p>
             </div>
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
@@ -222,6 +237,9 @@
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
                 <img class="w-11 mx-6" src="<?php echo get_theme_file_uri('/assets/img/check.png'); ?>" alt="Check">
                 <p>Acesso a material técnico exclusivo mensalmente</p>
+            </div>
+            <div class="flex items-center justify-center">
+                <a href="https://linktr.ee/Oliappoficiall" target="_blank" class="main-cta text-3xl md:text-4xl inline w-auto">ASSINE JÁ</a>
             </div>
         </div>
     </div>
@@ -471,7 +489,7 @@
                 SEJA NOSSO REPRESENTANTE!
                 A OliApp está bucando sempre
                 ampliar a rede de colaboradores
-                e carteira de clientes! amos juntos!
+                e carteira de clientes! vamos juntos!
             </p>
             <img class="w-60 md:w-full m-auto  md:mb-auto" src="<?php echo get_theme_file_uri('/assets/img/form-oli.svg'); ?>" alt="" >
         </div>

@@ -35,8 +35,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li class="wkode-header__li"> <a href="#planos"  class="">Planos</a> </li>
           <li class="wkode-header__li"> <a href="#sobre" class="">Soluçao Oli</a> </li>
           <li class="wkode-header__li"> <a href="#" id="openModalBtn" class="">Parcerias</a> </li>
-          <li class="wkode-header__li"> <a href="#" id="openModalBtn2" class="">Contato</a> </li>
-          <li class="wkode-header__li"> <button href="#" id="openModalBtn3" class="wkode-header__nav-button">Assine já!</a> </li>
+          <li class="wkode-header__li"> <a href="https://linktr.ee/Oliappoficiall" target="_blank" id="" class="">Contato</a> </li>
+          <li class="wkode-header__li"> <a href="https://linktr.ee/Oliappoficiall" target="_blank" id="" class="wkode-header__nav-button">Assine já!</a> </li>
         </ul>
     </div>
     <div class="wkode-header__hamburger-wrapper">

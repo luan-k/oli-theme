@@ -74,7 +74,7 @@ module.exports = [
         filename: "./dist/main.min.css",
       }),
       new BrowserSyncPlugin({
-        proxy: "oli.local",
+        proxy: "oliapp.local",
         files: ["**/*.php", "**/*.css", "**/*.scss"],
         notify: false,
       }),
