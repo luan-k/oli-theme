@@ -14,9 +14,17 @@
                 necessárias para a manutenção preventiva
                 de <span class="text-oli-primary-orange font-bold">motor, arrefecimento, transmissões automáticas, sistemas anexos</span> e muito mais.
             </h2>
-            <p class="text-3xl mb-20 wkode-hero-section__description" data-entrance="from-left">
-                Mais de <span class="text-oli-primary-orange font-bold">3.000</span> procedimentos detalhados em texto e vídeo, suporte humano
-especializado. Ganhe tempo e aumente o lucro da sua oficina.
+            <p class="text-2xl wkode-hero-section__description" data-entrance="from-left">
+                <img class="inline w-12 mr-2" src="<?php echo get_theme_file_uri('/assets/img/check2.png'); ?>" alt="" > 
+                Acesso a mais de 3.000 procedimentos detalhados em vídeos
+            </p>
+            <p class="text-2xl wkode-hero-section__description" data-entrance="from-left">
+                <img class="inline w-12 mr-2" src="<?php echo get_theme_file_uri('/assets/img/check2.png'); ?>" alt="" > 
+                Suporte humano especializado. 
+            </p>
+            <p class="text-2xl mb-8 flex justify-start center wkode-hero-section__description" data-entrance="from-left">
+                <img class="inline w-12 mr-2" src="<?php echo get_theme_file_uri('/assets/img/check2.png'); ?>" alt="" > 
+                Ganhe tempo e aumente o lucro da sua oficina.
             </p>
             <div class="flex flex-col items-center justify-center mb-12 gap-12">
                 <p class="text-4xl">
