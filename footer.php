@@ -85,7 +85,7 @@
             </div>
           </div>
           <div class="wkode-footer__footer grid grid-cols-2 container mt-12">
-            <h5 class="text-2xl border-t-2 border-white border-opacity-10 pt-12">Copyright © <?php echo date("Y"); ?> Oli App</h5>
+            <h5 class="text-2xl border-t-2 border-white border-opacity-10 pt-12">Copyright © <?php echo date("Y"); ?> Oli App - CNPJ - 50.046.183/0001-54</h5>
             <a class="border-t-2 border-white border-opacity-10 pt-12" target="_blank" href="<?php echo esc_url('https://wkode.com.br/'); ?>">
                 <img class="w-40 md:w-60 m-auto mr-0 h-auto" src="<?php echo get_theme_file_uri('./assets/img/logo-footer.svg')?>" alt="">
             </a>
