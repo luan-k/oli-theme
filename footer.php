@@ -46,7 +46,7 @@
                       </a>
                    </li> -->
                    <li class="wkode-footer__li icons"> 
-                      <a target="_blank" href="https://wa.me/5541997120295" class="wkode-footer__a">
+                      <a target="_blank" href="https://linktr.ee/Oliappoficiall" class="wkode-footer__a">
                         <img class="" src="<?php echo get_theme_file_uri('/assets/img/whats.svg'); ?>" alt="" >
                         Whatsapp
 
