@@ -77,7 +77,7 @@
                     <a target="_blank" class="wkode-footer__social-media-icon" href="https://www.youtube.com/@oliappoficial" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-youtube.svg'); ?>" alt="" class="">
                     </a>
-                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://wa.me/5541997120295" >
+                    <a target="_blank" class="wkode-footer__social-media-icon" href="https://linktr.ee/Oliappoficiall" >
                       <img src="<?php echo get_theme_file_uri('/assets/img/footer-whats.svg'); ?>" alt="" class="">
                     </a>
                   </nav>
