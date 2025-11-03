@@ -251,7 +251,7 @@
             </div>
         </div>
     </div>
-    <div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
+    <!--<div class="wkode-planos__item flex flex-col items-center justify-center gap-6 w-5/6">
         <h4 class="wkode-planos__item_title text-4xl font-bold italic py-8 px-12 w-full text-center">Procedimento Avulso</h4>
         <div class="wkode-planos__item_content w-full py-8 px-4">
             <div class="wkode-planos__item_content-item flex gap-3 items-center text-2xl">
@@ -262,7 +262,7 @@
                 </p>
             </div>
         </div>
-    </div>
+    </div>-->
 </section>
 
 <section class="wkode-technical container py-40 flex flex-col items-center justify-center gap-12" id="sobre">
